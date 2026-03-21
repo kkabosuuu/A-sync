@@ -1,0 +1,4643 @@
+﻿#include "pch-cpp.hpp"
+
+
+
+
+
+template <typename R>
+struct VirtualFuncInvoker0
+{
+	typedef R (*Func)(void*, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+template <typename R, typename T1>
+struct VirtualFuncInvoker1
+{
+	typedef R (*Func)(void*, T1, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		return ((Func)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
+template <typename T1, typename T2, typename T3>
+struct InterfaceActionInvoker3
+{
+	typedef void (*Action)(void*, T1, T2, T3, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj, T1 p1, T2 p2, T3 p3)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		((Action)invokeData.methodPtr)(obj, p1, p2, p3, invokeData.method);
+	}
+};
+
+struct Action_1_tD73BC7FEF1671B01BA9C93C20E8C741DB8DEFCFD;
+struct Action_1_t1B5115AA4265AE1C83F3EC48593F86230AF07295;
+struct Action_1_t3A1DE9227396F3C161EEABEA4147808A86558826;
+struct Action_1_tEDBE6144CEB293C0905C68B84BB211D3950274B3;
+struct Action_1_t8567C9C86A4F384D0A5DD2E75B392F263E3C7229;
+struct Action_2_t3EC2669A751FDF2FFFA36356EC41244433164490;
+struct Action_2_t43544BAAB4CC69E54228A3389CC3D57A805208A2;
+struct Action_2_tAA2E46B2015896D2C3FD7EC72B52C340E8EFF4C4;
+struct Dictionary_2_tCA6FC027A4EAE9285D2860309E61DB2B271D9A80;
+struct Dictionary_2_tAD182111317FFA6F3D46F2A5D89115A1E112F989;
+struct Dictionary_2_t090B48BACBD1134A0E2C74084CF2392C71A6812B;
+struct Dictionary_2_t5C8F46F5D57502270DD9E1DA8303B23C7FE85588;
+struct Dictionary_2_t681C2D0152C2184DCA6AD773603D0FE709D338C9;
+struct Dictionary_2_t47C3B85708CBFB02F30AF23A5D4092EC2DAD8636;
+struct Func_1_t70BAAB9F1D00714988C7BA974AF43D14365CBD68;
+struct Func_3_t83C3884209B8DB1BD7296483BB2A295E28D62AE6;
+struct HashSet_1_t0B39EF96E81D9617D3E4536032F30E1AE7610153;
+struct HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885;
+struct HashSet_1_t5B6B46270D543F8EDB3F122B02D36E60196CB13B;
+struct HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178;
+struct IAudioOut_1_t52874464F649CB4D8674B0F14144AADE14995DF9;
+struct List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4;
+struct List_1_tAE460F42AC335F9ADFDAB761B93C2E8883845E5F;
+struct List_1_t7628C79979ECE33C758FA5C52526761CA20F2167;
+struct List_1_tA7AAD9C9730173B4B69D3E42B07AF11817191181;
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D;
+struct List_1_t4AAED60DF1950E8D05C3BFEB57C6A43FBFD440B5;
+struct List_1_tBFD6B7B62FB7763BC57224ED666A855ACCD05536;
+struct List_1_t823310AB4F398AE467887CC898545B689B70003F;
+struct List_1_t581C6CC97545A3BE378779CD0B20D123D6DCF950;
+struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD;
+struct List_1_t9502060F404ACB6B9ACF04BFA5D0DFC653142A15;
+struct NonAllocDictionary_2_tC9904455C122E50478272CC5522AD956A7BB5F12;
+struct Pool_1_t47635E10016E83A1E327B583977D1F043544FB48;
+struct Queue_1_t9BA80EF655597EC91F8BA37831960B5B70540B02;
+struct Queue_1_tF178FEC52A1E31BA7A3C30BE84E4770D020B061B;
+struct AudioSessionCategoryOptionU5BU5D_tDE452C63A96D619A3AE7D328A5E074AA02BC9867;
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
+struct MonoBehaviourU5BU5D_tEB91860B3CEE2D63A7833A2842EB9CE4547DDBD7;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+struct PunVoiceClientU5BU5D_tA9E595CE512FF5D14568F8D20D4D2D0424190234;
+struct RecorderU5BU5D_tAAB13195DDDDEAC2F7880901A37700F4D4429C1D;
+struct SpeakerU5BU5D_t219347C6659D7D19D460CE8790C5F285F35C1589;
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
+struct TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB;
+struct VoiceLoggerU5BU5D_t2EAAFCE8EAC2A25FE8F16DDF75F3FCD04D846410;
+struct AppSettings_tF847AF39732C3BF8BECBCCAC41D186A0B79123F7;
+struct AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C;
+struct AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20;
+struct AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7;
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA;
+struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B;
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3;
+struct ConnectionCallbacksContainer_t4E9F72F713D87B67F0CA63162CFC7D100554BFFD;
+struct DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E;
+struct DeviceFeatures_t05B3C3BD6FF064A0B655BA147B59195A5DBC3D03;
+struct EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9;
+struct ErrorInfoCallbacksContainer_tF60CA97691A86635843C02EEA1D689A384BC7ED7;
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F;
+struct Hashtable_tD626399B3ADFD501225241D7366103F35472542A;
+struct IAudioDesc_t3DEEF61ECB638E82CFBFC6F26D590E2ECD3F99C2;
+struct ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075;
+struct IPhotonEncryptor_tACE5277867F34445F8CAB737A6C60770A74FE635;
+struct IPhotonPeerListener_tCF670245092F1C9F0BB8F83AE0742E9473417E6D;
+struct IPunPrefabPool_t0C53499E6C013A2913E220B8D6627AEE50272B36;
+struct ITrafficRecorder_t62EB15B7BDBC1428F5BFAF50DA2086B74E2ACBDF;
+struct InRoomCallbacksContainer_t7730C9DD20B72CC201052C5E6FC914E6FD4B1488;
+struct LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4;
+struct LoadBalancingPeer_t8C350A611B061F0EA1DE76C03AFD0CE19070E81F;
+struct LoadBalancingTransport_tCBC427B25D0F207FCC8E751172AE1402A5230C80;
+struct LobbyCallbacksContainer_tEF75E5B06B44AD5DE298FA7C597901BAE1E352FC;
+struct LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5;
+struct MatchMakingCallbacksContainer_tEDF984018478E15D3031775F859CD94D66275C97;
+struct MethodInfo_t;
+struct MonoBehaviourPun_t64DD82CBA1C47A70448DAB2263AB90A4411621BD;
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
+struct OperationResponse_t19D9B9933391EE79E5DEB2F8AECE02D5519E65ED;
+struct PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F;
+struct PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C;
+struct PhotonStream_t51D26D86E501F1931A26F2CF1C7D915D690CBD2E;
+struct PhotonTransportProtocol_tDBD08C0E3F1F28676B0573F86D9BC19564FCA700;
+struct PhotonView_t43F3D22FF3D00F7824E82D741D70F9CB55642E6B;
+struct PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9;
+struct Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA363C;
+struct PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1;
+struct RaiseEventOptions_tAEB3A9A0993C52981809954BC2DB304E887D852E;
+struct Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C;
+struct RegionHandler_tF76A25E25C3BF915FDFBEA81372D9D7858087EBB;
+struct RemoteVoiceLink_tC6B459D4BE83C680417FE28AAA063F8163D7F4E4;
+struct Room_t9CCA5C06B8CE2E5E1EE24AD17360F218C4E36373;
+struct ServerSettings_t41BE4338E7E76BFB4919D4039BAFC6799E242152;
+struct Speaker_tBD124E6AEFF169667A9441881B3A98F122AE4ADE;
+struct Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043;
+struct String_t;
+struct SupportLogger_t853FFDC016DE6BEBBC2DBBF6EA668299E4C524DD;
+struct SystemConnectionSummary_t42DEF00A80373BAC571B4CCF960BB85E7155819A;
+struct Timer_t763C1D5F5A36087DC92C7DA4D1F8AB578F83AB00;
+struct TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503;
+struct TrafficStatsGameLevel_t2733AB6F5A530490DF25127C7183A811B63717D9;
+struct Type_t;
+struct TypedLobby_t29F38D993E984979E53A9212143F1B770EEC6DB9;
+struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tDE33C67869845A9608DD7E9AF07F459FC39BFA66;
+struct VoiceClient_t8038478A87E8F714C44193FC74D2A22BC7FDFB4E;
+struct VoiceComponent_t453054E310D019B00B0571863F2C5E66DA8629FF;
+struct VoiceComponentImpl_t0F6CF304701B2CD643B645A6378645F69E396C90;
+struct VoiceConnection_tB1A14C698697002D8D57FA47F332A44E7E294DB3;
+struct VoiceDebugScript_t4AA28FE575EF14AC7BBA68FAFBB0F70E8F503315;
+struct VoiceFollowClient_t18D05F6221E05816A23048B86F1259AD511E2EF2;
+struct VoiceLogger_t43ABA98917D5D00D8121A67D03DDB5EDB721F0D7;
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+struct WebRpcCallbacksContainer_t88E62A57DFEECEC90CE6EC40A270C0C188AD1851;
+struct PCMReaderCallback_t3396D9613664F0AFF65FB91018FD0F901CC16F1E;
+struct PCMSetPositionCallback_t8D7135A2FB40647CAEC93F5254AD59E18DEB6072;
+
+IL2CPP_EXTERN_C RuntimeClass* Action_2_t3EC2669A751FDF2FFFA36356EC41244433164490_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* AppSettings_tF847AF39732C3BF8BECBCCAC41D186A0B79123F7_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t688B7693867865E134CCE77BB80CE581B4346187____3F6066F91F10495905AB9E182E8B0C34D201B67A080F44B6B69E2CF05108DC7E_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t688B7693867865E134CCE77BB80CE581B4346187____9CA20CD97D091DC728AAD89E455BAE63C38813A9A385E971C78B8D7C5C5357C8_FieldInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral0992D3165D8489C42C7461FA83DBC4B3639330E8;
+IL2CPP_EXTERN_C String_t* _stringLiteral09AF8992981BCC4085724E4E3D0CF09319FCE9D9;
+IL2CPP_EXTERN_C String_t* _stringLiteral0AAD5240183043F2AC9BF73F3688D7989AA5DD58;
+IL2CPP_EXTERN_C String_t* _stringLiteral0AB9A62FEB121241DAF6E027F68F70D4A6625235;
+IL2CPP_EXTERN_C String_t* _stringLiteral0ADAA9081239C97382D9F0956300A807BE35143E;
+IL2CPP_EXTERN_C String_t* _stringLiteral14727C2772E7388F0F563659C83865E67B93D390;
+IL2CPP_EXTERN_C String_t* _stringLiteral179D9FE8817F214B3074543C7798DACDA20D79B7;
+IL2CPP_EXTERN_C String_t* _stringLiteral1BBA5BC812707330A06468A5C3E57AA6A3580C93;
+IL2CPP_EXTERN_C String_t* _stringLiteral1F11D7FD924312A01D1434E6B6C15C14D50960BC;
+IL2CPP_EXTERN_C String_t* _stringLiteral2354DE780A5B69C0FEED47C58F7AAB3C88099215;
+IL2CPP_EXTERN_C String_t* _stringLiteral24F5590E4C612C6C361CC9B6A7D645EEF121B6BD;
+IL2CPP_EXTERN_C String_t* _stringLiteral2B2DA86F8E43CCF02C50633D307C27C7B2BBB4AB;
+IL2CPP_EXTERN_C String_t* _stringLiteral45CC5DDEA8717A99A5B870EE5DABECF5F7C7046A;
+IL2CPP_EXTERN_C String_t* _stringLiteral481399EB9E74D247B70B58DD3F2B8A76F6C3D695;
+IL2CPP_EXTERN_C String_t* _stringLiteral4816459EC827354ABCD3F7B7D8543A20050D2B0D;
+IL2CPP_EXTERN_C String_t* _stringLiteral491DFF307155D060DE2930B3A4DACC763B9B9992;
+IL2CPP_EXTERN_C String_t* _stringLiteral493FE7F94FDC85045F0BE8971C31BED9290C8526;
+IL2CPP_EXTERN_C String_t* _stringLiteral4A6311C62451843E33262D7C8190CB31A3FDF66A;
+IL2CPP_EXTERN_C String_t* _stringLiteral4EAA25CDEC82B11766592502AB76F8FE0EFBF3E4;
+IL2CPP_EXTERN_C String_t* _stringLiteral5395A2F08284F5EAE81B1C322B82D7E19E4D4CF3;
+IL2CPP_EXTERN_C String_t* _stringLiteral566067E3C1339B5F41E264C307AFED1E012B8F76;
+IL2CPP_EXTERN_C String_t* _stringLiteral5BEFD8CC60A79699B5BB00E37BAC5B62D371E174;
+IL2CPP_EXTERN_C String_t* _stringLiteral5E7DA8E8875DDA9664D612DF021FC38E6BA46578;
+IL2CPP_EXTERN_C String_t* _stringLiteral62D4DA4488413E8C1FACD06BD54997CC4BCD9612;
+IL2CPP_EXTERN_C String_t* _stringLiteral631CCB3B38A24A985A55AD1E70ABA1395491A996;
+IL2CPP_EXTERN_C String_t* _stringLiteral6458CA1942CDE521844E158F0EC0CC46DFEC227B;
+IL2CPP_EXTERN_C String_t* _stringLiteral6ABBF4466BE09D0080DEBDE2BAB8E36F342F072B;
+IL2CPP_EXTERN_C String_t* _stringLiteral6D151FB1D99E3E0C476B7791FA53B432E15F603F;
+IL2CPP_EXTERN_C String_t* _stringLiteral7A8973A32FBEB43D1721AAF5EB33BEF26EF896C5;
+IL2CPP_EXTERN_C String_t* _stringLiteral7B5C4D03399EEA9B7DB3B2A1F30F170F7ED0E222;
+IL2CPP_EXTERN_C String_t* _stringLiteral7B99C5BB86AD28992FE3EA8391C088EA95489451;
+IL2CPP_EXTERN_C String_t* _stringLiteral82B1190104BB5B93E0E671FC52196230F07C4616;
+IL2CPP_EXTERN_C String_t* _stringLiteral849994D0F83DC8C476CF3A89C36B232187AE95A3;
+IL2CPP_EXTERN_C String_t* _stringLiteral8718556EB9DCBD2575098EAB4C86419472AC7614;
+IL2CPP_EXTERN_C String_t* _stringLiteral89D07FA9289A89F82E6B227F7EDD2C8EF9F9D210;
+IL2CPP_EXTERN_C String_t* _stringLiteral96F687665AEA502398F1370CEE347C90A340B677;
+IL2CPP_EXTERN_C String_t* _stringLiteral9BF9C9C23F7100943694DB45B8871B0A811B35C8;
+IL2CPP_EXTERN_C String_t* _stringLiteralC5F700A67A6310E33DD094AAC545BF1871B6D467;
+IL2CPP_EXTERN_C String_t* _stringLiteralCBA0771AC72CD21EFF386416E9F6F5302398353F;
+IL2CPP_EXTERN_C String_t* _stringLiteralD0942E93D883771539D99BE72A7DDCB8AE98CDC8;
+IL2CPP_EXTERN_C String_t* _stringLiteralD0C669958BFD1AB4581DA8AE8C62EA5A5074640C;
+IL2CPP_EXTERN_C String_t* _stringLiteralD193818D7EE1F56481A87F5FE7594803C22FC12B;
+IL2CPP_EXTERN_C String_t* _stringLiteralD898110020367A3C85DFC02C4633ED3E8B6CE172;
+IL2CPP_EXTERN_C const RuntimeMethod* Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisPhotonView_t43F3D22FF3D00F7824E82D741D70F9CB55642E6B_m746044A420F6E334D6664146FCFE7569712D22E2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisPhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9_mC1E04F504797B33976B8C685BAD42A0AC1D478BB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponentsInChildren_TisRecorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C_mDAB4705723E98C6792AE2864689F9C8182851FEE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponentsInChildren_TisSpeaker_tBD124E6AEFF169667A9441881B3A98F122AE4ADE_m62F935FB313C574220B837413E1E706B459EE5D6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisPunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1_m8E34F6F5401D5E1DC72D08DF76466DBD2EC993BA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Object_FindObjectsByType_TisPunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1_m11BD56675801E50F778B65238FBFBA0455350544_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Object_FindObjectsByType_TisVoiceLogger_t43ABA98917D5D00D8121A67D03DDB5EDB721F0D7_mFE0135C92C6220D8E85C56E1CBAA705235146A54_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PunVoiceClient_OnPunStateChange_m4E459E11D8955A8D38BDDD82EBC3BF4777E9EDB5_RuntimeMethod_var;
+struct Delegate_t_marshaled_com;
+struct Delegate_t_marshaled_pinvoke;
+
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+struct PunVoiceClientU5BU5D_tA9E595CE512FF5D14568F8D20D4D2D0424190234;
+struct RecorderU5BU5D_tAAB13195DDDDEAC2F7880901A37700F4D4429C1D;
+struct SpeakerU5BU5D_t219347C6659D7D19D460CE8790C5F285F35C1589;
+struct VoiceLoggerU5BU5D_t2EAAFCE8EAC2A25FE8F16DDF75F3FCD04D846410;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct U3CModuleU3E_t07AC2C08AC8E2A2DDE6E227A29B92E6ED2FDEA58 
+{
+};
+struct EmptyArray_1_tDF0DD7256B115243AA6BD5558417387A734240EE  : public RuntimeObject
+{
+};
+struct U3CPrivateImplementationDetailsU3E_t688B7693867865E134CCE77BB80CE581B4346187  : public RuntimeObject
+{
+};
+struct PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99  : public RuntimeObject
+{
+};
+struct Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA363C  : public RuntimeObject
+{
+	Room_t9CCA5C06B8CE2E5E1EE24AD17360F218C4E36373* ___U3CRoomReferenceU3Ek__BackingField;
+	int32_t ___actorNumber;
+	bool ___IsLocal;
+	bool ___U3CHasRejoinedU3Ek__BackingField;
+	String_t* ___nickName;
+	String_t* ___U3CUserIdU3Ek__BackingField;
+	bool ___U3CIsInactiveU3Ek__BackingField;
+	Hashtable_tD626399B3ADFD501225241D7366103F35472542A* ___U3CCustomPropertiesU3Ek__BackingField;
+	RuntimeObject* ___TagObject;
+};
+struct RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D  : public RuntimeObject
+{
+	bool ___RemovedFromList;
+	Hashtable_tD626399B3ADFD501225241D7366103F35472542A* ___customProperties;
+	int32_t ___maxPlayers;
+	int32_t ___emptyRoomTtl;
+	int32_t ___playerTtl;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___expectedUsers;
+	bool ___isOpen;
+	bool ___isVisible;
+	bool ___autoCleanUp;
+	String_t* ___name;
+	int32_t ___masterClientId;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___propertiesListedInLobby;
+	int32_t ___U3CPlayerCountU3Ek__BackingField;
+};
+struct String_t  : public RuntimeObject
+{
+	int32_t ____stringLength;
+	Il2CppChar ____firstChar;
+};
+struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tDE33C67869845A9608DD7E9AF07F459FC39BFA66  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct AndroidAudioInParameters_t7212C4A7649E84B331F6B2C50AB43A50F4B66D0A 
+{
+	bool ___EnableAEC;
+	bool ___EnableAGC;
+	bool ___EnableNS;
+};
+struct AndroidAudioInParameters_t7212C4A7649E84B331F6B2C50AB43A50F4B66D0A_marshaled_pinvoke
+{
+	int32_t ___EnableAEC;
+	int32_t ___EnableAGC;
+	int32_t ___EnableNS;
+};
+struct AndroidAudioInParameters_t7212C4A7649E84B331F6B2C50AB43A50F4B66D0A_marshaled_com
+{
+	int32_t ___EnableAEC;
+	int32_t ___EnableAGC;
+	int32_t ___EnableNS;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	bool ___m_value;
+};
+struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3 
+{
+	uint8_t ___m_value;
+};
+struct DeviceInfo_tC91EF4D866BBBA8B68A503B620A00F15C60C2335 
+{
+	bool ___U3CIsDefaultU3Ek__BackingField;
+	int32_t ___U3CIDIntU3Ek__BackingField;
+	String_t* ___U3CIDStringU3Ek__BackingField;
+	String_t* ___U3CNameU3Ek__BackingField;
+	DeviceFeatures_t05B3C3BD6FF064A0B655BA147B59195A5DBC3D03* ___features;
+	bool ___useStringID;
+};
+struct DeviceInfo_tC91EF4D866BBBA8B68A503B620A00F15C60C2335_marshaled_pinvoke
+{
+	int32_t ___U3CIsDefaultU3Ek__BackingField;
+	int32_t ___U3CIDIntU3Ek__BackingField;
+	char* ___U3CIDStringU3Ek__BackingField;
+	char* ___U3CNameU3Ek__BackingField;
+	DeviceFeatures_t05B3C3BD6FF064A0B655BA147B59195A5DBC3D03* ___features;
+	int32_t ___useStringID;
+};
+struct DeviceInfo_tC91EF4D866BBBA8B68A503B620A00F15C60C2335_marshaled_com
+{
+	int32_t ___U3CIsDefaultU3Ek__BackingField;
+	int32_t ___U3CIDIntU3Ek__BackingField;
+	Il2CppChar* ___U3CIDStringU3Ek__BackingField;
+	Il2CppChar* ___U3CNameU3Ek__BackingField;
+	DeviceFeatures_t05B3C3BD6FF064A0B655BA147B59195A5DBC3D03* ___features;
+	int32_t ___useStringID;
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
+struct IntPtr_t 
+{
+	void* ___m_value;
+};
+struct PhotonMessageInfo_tBA8653D413ADDF1C1329026FA1B84F1BD4F203CA 
+{
+	int32_t ___timeInt;
+	Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA363C* ___Sender;
+	PhotonView_t43F3D22FF3D00F7824E82D741D70F9CB55642E6B* ___photonView;
+};
+struct PhotonMessageInfo_tBA8653D413ADDF1C1329026FA1B84F1BD4F203CA_marshaled_pinvoke
+{
+	int32_t ___timeInt;
+	Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA363C* ___Sender;
+	PhotonView_t43F3D22FF3D00F7824E82D741D70F9CB55642E6B* ___photonView;
+};
+struct PhotonMessageInfo_tBA8653D413ADDF1C1329026FA1B84F1BD4F203CA_marshaled_com
+{
+	int32_t ___timeInt;
+	Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA363C* ___Sender;
+	PhotonView_t43F3D22FF3D00F7824E82D741D70F9CB55642E6B* ___photonView;
+};
+struct PhotonPortDefinition_t75A54992188E1DC3FF910A00927F213E7198590A 
+{
+	uint16_t ___NameServerPort;
+	uint16_t ___MasterServerPort;
+	uint16_t ___GameServerPort;
+};
+struct Room_t9CCA5C06B8CE2E5E1EE24AD17360F218C4E36373  : public RoomInfo_t4C5919F4F2B1DCDEA81D1522AFD5008072A7D29D
+{
+	LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4* ___U3CLoadBalancingClientU3Ek__BackingField;
+	bool ___isOffline;
+	Dictionary_2_t090B48BACBD1134A0E2C74084CF2392C71A6812B* ___players;
+	bool ___U3CBroadcastPropertiesChangeToAllU3Ek__BackingField;
+	bool ___U3CSuppressRoomEventsU3Ek__BackingField;
+	bool ___U3CSuppressPlayerInfoU3Ek__BackingField;
+	bool ___U3CPublishUserIdU3Ek__BackingField;
+	bool ___U3CDeleteNullPropertiesU3Ek__BackingField;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D126_t54A35E764B8B733052D7B8FDC12F18CE62130384 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D126_t54A35E764B8B733052D7B8FDC12F18CE62130384__padding[126];
+	};
+};
+#pragma pack(pop, tp)
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D201_t30D2D608302BE36B56FA714A1803009A46CD7A27 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D201_t30D2D608302BE36B56FA714A1803009A46CD7A27__padding[201];
+	};
+};
+#pragma pack(pop, tp)
+struct PlayDelayConfig_t7E2F00F08A8F2A3D47AFDD64347913B6409871E2 
+{
+	int32_t ___Low;
+	int32_t ___High;
+	int32_t ___Max;
+	int32_t ___SpeedUpPerc;
+};
+struct MonoScriptData_t18D810034F5D89D44222C9F5E7514811B4BB3FA2 
+{
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___FilePathsData;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	bool ___IsEditorOnly;
+};
+struct MonoScriptData_t18D810034F5D89D44222C9F5E7514811B4BB3FA2_marshaled_pinvoke
+{
+	Il2CppSafeArray* ___FilePathsData;
+	Il2CppSafeArray* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	int32_t ___IsEditorOnly;
+};
+struct MonoScriptData_t18D810034F5D89D44222C9F5E7514811B4BB3FA2_marshaled_com
+{
+	Il2CppSafeArray* ___FilePathsData;
+	Il2CppSafeArray* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	int32_t ___IsEditorOnly;
+};
+struct AudioSessionCategory_t1C36CB8E4F7F94A6DE2B1D509AD12AF9BA667969 
+{
+	int32_t ___value__;
+};
+struct AudioSessionMode_tF805910784023C190A8DD567B87F621B9EA11F7D 
+{
+	int32_t ___value__;
+};
+struct AuthModeOption_t7CA0F11229CF212E10897F367BEE70D85C01B1EE 
+{
+	int32_t ___value__;
+};
+struct ClientAppType_t57C1C7B1D5E0E79122A257020614427275A76B65 
+{
+	int32_t ___value__;
+};
+struct ClientState_t37749736ADC28D4E9C0B442B1DC988F76AAE4FA3 
+{
+	int32_t ___value__;
+};
+struct ConnectMethod_t2F54C1E94322581C4D81C39BC89D18392C762352 
+{
+	int32_t ___value__;
+};
+struct ConnectionProtocol_t5F53E5A9D1B47CD4A9FAE10E5F648DE2596D46F2 
+{
+	uint8_t ___value__;
+};
+struct CustomAuthenticationType_t202E72650121EDA3F5EC694D792F2DEBC48E9D0B 
+{
+	uint8_t ___value__;
+};
+struct DebugLevel_t02AE6C5FD0E09AFE78382E0B5C15DC2223D35D98 
+{
+	uint8_t ___value__;
+};
+struct Delegate_t  : public RuntimeObject
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	RuntimeObject* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	bool ___method_is_virtual;
+};
+struct Delegate_t_marshaled_pinvoke
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct Delegate_t_marshaled_com
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct DisconnectCause_t2C4E3D34FE0D1842B3C915A63ECCE068B8A258E5 
+{
+	int32_t ___value__;
+};
+struct EncryptionMode_tD26BF6E736ED3A0AE841EE96A761723407E6FF98 
+{
+	int32_t ___value__;
+};
+struct FindObjectsSortMode_t3C83F8C6588F54EBB0CEB21F79D54CD19460AE9E 
+{
+	int32_t ___value__;
+};
+struct JoinType_t4C989A956DB1EE06BE8CED51A4C9817AB7FB860C 
+{
+	int32_t ___value__;
+};
+struct LogLevel_t85EE3A4BB9D0584780CBC4E15223A9558281E746 
+{
+	int32_t ___value__;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+	intptr_t ___m_CachedPtr;
+};
+struct OwnershipOption_t36CEE974485BF3251513A6828C74013544882494 
+{
+	int32_t ___value__;
+};
+struct PunLogLevel_t1069D6E4AE1E2C68864CE8DF38BD86D6C1BED877 
+{
+	int32_t ___value__;
+};
+struct RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 
+{
+	intptr_t ___value;
+};
+struct SamplingRate_t6F0A45CA2592F821B1D6A27E68189B3B26AE3D99 
+{
+	int32_t ___value__;
+};
+struct SerializationProtocol_t2A6589A0938C7CF1EAFEEC0FC61F0D34F7176910 
+{
+	int32_t ___value__;
+};
+struct ServerConnection_t91F7686050F68425C6517C7AC3225669636DD0CC 
+{
+	int32_t ___value__;
+};
+struct TargetFrameworks_tFA2579142253D3F9C8D7EBCB307EC5D21F20E76D 
+{
+	int32_t ___value__;
+};
+struct ViewSynchronization_tF0B7A5F5226663DB5F7C84FA7C787E63D7FB965D 
+{
+	int32_t ___value__;
+};
+struct FrameDuration_t7104DAA728B7223945C15F6B0D1C71A945C42DB8 
+{
+	int32_t ___value__;
+};
+struct ObservableSearch_t50559265532D38037EE3F9B7851B8257A9FB7D76 
+{
+	int32_t ___value__;
+};
+struct InputSourceType_tEDDE5F70584035993A2D5757BB3A9331F6CA86A4 
+{
+	int32_t ___value__;
+};
+struct MicType_t72AD794BBCFD7E7B0D069950F4ACABB93006B95C 
+{
+	int32_t ___value__;
+};
+struct Nullable_1_tC61504D4999670A5A2480A3B5CB4AC8A71EEE32E 
+{
+	bool ___hasValue;
+	uint8_t ___value;
+};
+struct AppSettings_tF847AF39732C3BF8BECBCCAC41D186A0B79123F7  : public RuntimeObject
+{
+	String_t* ___AppIdRealtime;
+	String_t* ___AppIdFusion;
+	String_t* ___AppIdChat;
+	String_t* ___AppIdVoice;
+	String_t* ___AppVersion;
+	bool ___UseNameServer;
+	String_t* ___FixedRegion;
+	String_t* ___BestRegionSummaryFromStorage;
+	String_t* ___Server;
+	int32_t ___Port;
+	String_t* ___ProxyServer;
+	uint8_t ___Protocol;
+	bool ___EnableProtocolFallback;
+	int32_t ___AuthMode;
+	bool ___EnableLobbyStatistics;
+	uint8_t ___NetworkLogging;
+};
+struct AudioResource_t35B84706031E4F08C928B1640B804839F4B6500A  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct AudioSessionParameters_t1AF1732698B36F46E4914C11DE013498CD279C37 
+{
+	int32_t ___Category;
+	int32_t ___Mode;
+	AudioSessionCategoryOptionU5BU5D_tDE452C63A96D619A3AE7D328A5E074AA02BC9867* ___CategoryOptions;
+};
+struct AudioSessionParameters_t1AF1732698B36F46E4914C11DE013498CD279C37_marshaled_pinvoke
+{
+	int32_t ___Category;
+	int32_t ___Mode;
+	int32_t* ___CategoryOptions;
+};
+struct AudioSessionParameters_t1AF1732698B36F46E4914C11DE013498CD279C37_marshaled_com
+{
+	int32_t ___Category;
+	int32_t ___Mode;
+	int32_t* ___CategoryOptions;
+};
+struct AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7  : public RuntimeObject
+{
+	uint8_t ___authType;
+	String_t* ___U3CAuthGetParametersU3Ek__BackingField;
+	RuntimeObject* ___U3CAuthPostDataU3Ek__BackingField;
+	RuntimeObject* ___U3CTokenU3Ek__BackingField;
+	String_t* ___U3CUserIdU3Ek__BackingField;
+};
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct MulticastDelegate_t  : public Delegate_t
+{
+	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates;
+};
+struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvoke
+{
+	Delegate_t_marshaled_pinvoke** ___delegates;
+};
+struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
+{
+	Delegate_t_marshaled_com** ___delegates;
+};
+struct PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C  : public RuntimeObject
+{
+	int32_t ___U3CCommandBufferSizeU3Ek__BackingField;
+	int32_t ___U3CLimitOfUnreliableCommandsU3Ek__BackingField;
+	int32_t ___WarningSize;
+	int32_t ___CommandLogSize;
+	int32_t ___TargetFramework;
+	bool ___RemoveAppIdFromWebSocketPath;
+	uint8_t ___ClientSdkId;
+	bool ___UseInitV3;
+	int32_t ___U3CSerializationProtocolTypeU3Ek__BackingField;
+	Dictionary_2_tAD182111317FFA6F3D46F2A5D89115A1E112F989* ___SocketImplementationConfig;
+	Type_t* ___U3CSocketImplementationU3Ek__BackingField;
+	uint8_t ___DebugOut;
+	RuntimeObject* ___U3CListenerU3Ek__BackingField;
+	Action_1_tD73BC7FEF1671B01BA9C93C20E8C741DB8DEFCFD* ___OnDisconnectMessage;
+	bool ___reuseEventInstance;
+	bool ___useByteArraySlicePoolForEvents;
+	bool ___wrapIncomingStructs;
+	bool ___SendInCreationOrder;
+	int32_t ___SendWindowSize;
+	RuntimeObject* ___TrafficRecorder;
+	bool ___U3CEnableServerTracingU3Ek__BackingField;
+	uint8_t ___quickResendAttempts;
+	uint8_t ___ChannelCount;
+	bool ___EnableEncryptedFlag;
+	bool ___crcEnabled;
+	int32_t ___SentCountAllowance;
+	int32_t ___InitialResendTimeMax;
+	int32_t ___TimePingInterval;
+	bool ___PingUsedAsInit;
+	int32_t ___disconnectTimeout;
+	uint8_t ___U3CTransportProtocolU3Ek__BackingField;
+	int32_t ___mtu;
+	bool ___U3CIsSendingOnlyAcksU3Ek__BackingField;
+	bool ___RandomizeSequenceNumbers;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___RandomizedSequenceNumbers;
+	bool ___GcmDatagramEncryption;
+	TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503* ___U3CTrafficStatsIncomingU3Ek__BackingField;
+	TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503* ___U3CTrafficStatsOutgoingU3Ek__BackingField;
+	TrafficStatsGameLevel_t2733AB6F5A530490DF25127C7183A811B63717D9* ___U3CTrafficStatsGameLevelU3Ek__BackingField;
+	Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* ___trafficStatsStopwatch;
+	bool ___trafficStatsEnabled;
+	PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* ___peerBase;
+	RuntimeObject* ___SendOutgoingLockObject;
+	RuntimeObject* ___DispatchLockObject;
+	RuntimeObject* ___EnqueueLock;
+	Type_t* ___payloadEncryptorType;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___PayloadEncryptionSecret;
+	Type_t* ___encryptorType;
+	RuntimeObject* ___Encryptor;
+	int32_t ___U3CCountDiscardedU3Ek__BackingField;
+	int32_t ___U3CDeltaUnreliableNumberU3Ek__BackingField;
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_pinvoke : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_com : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+};
+struct Action_2_t3EC2669A751FDF2FFFA36356EC41244433164490  : public MulticastDelegate_t
+{
+};
+struct AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20  : public AudioResource_t35B84706031E4F08C928B1640B804839F4B6500A
+{
+	PCMReaderCallback_t3396D9613664F0AFF65FB91018FD0F901CC16F1E* ___m_PCMReaderCallback;
+	PCMSetPositionCallback_t8D7135A2FB40647CAEC93F5254AD59E18DEB6072* ___m_PCMSetPositionCallback;
+};
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4  : public RuntimeObject
+{
+	LoadBalancingPeer_t8C350A611B061F0EA1DE76C03AFD0CE19070E81F* ___U3CLoadBalancingPeerU3Ek__BackingField;
+	String_t* ___U3CAppVersionU3Ek__BackingField;
+	String_t* ___U3CAppIdU3Ek__BackingField;
+	int32_t ___U3CClientTypeU3Ek__BackingField;
+	AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7* ___U3CAuthValuesU3Ek__BackingField;
+	int32_t ___AuthMode;
+	int32_t ___EncryptionMode;
+	Nullable_1_tC61504D4999670A5A2480A3B5CB4AC8A71EEE32E ___U3CExpectedProtocolU3Ek__BackingField;
+	RuntimeObject* ___tokenCache;
+	bool ___U3CIsUsingNameServerU3Ek__BackingField;
+	String_t* ___NameServerHost;
+	bool ___U3CUseAlternativeUdpPortsU3Ek__BackingField;
+	PhotonPortDefinition_t75A54992188E1DC3FF910A00927F213E7198590A ___ServerPortOverrides;
+	bool ___U3CEnableProtocolFallbackU3Ek__BackingField;
+	String_t* ___U3CMasterServerAddressU3Ek__BackingField;
+	String_t* ___U3CGameServerAddressU3Ek__BackingField;
+	Func_3_t83C3884209B8DB1BD7296483BB2A295E28D62AE6* ___AddressRewriter;
+	int32_t ___U3CServerU3Ek__BackingField;
+	String_t* ___ProxyServerAddress;
+	int32_t ___U3CConnectCountU3Ek__BackingField;
+	int32_t ___state;
+	Action_2_t3EC2669A751FDF2FFFA36356EC41244433164490* ___StateChanged;
+	Action_1_t1B5115AA4265AE1C83F3EC48593F86230AF07295* ___EventReceived;
+	Action_1_t3A1DE9227396F3C161EEABEA4147808A86558826* ___OpResponseReceived;
+	ConnectionCallbacksContainer_t4E9F72F713D87B67F0CA63162CFC7D100554BFFD* ___ConnectionCallbackTargets;
+	MatchMakingCallbacksContainer_tEDF984018478E15D3031775F859CD94D66275C97* ___MatchMakingCallbackTargets;
+	InRoomCallbacksContainer_t7730C9DD20B72CC201052C5E6FC914E6FD4B1488* ___InRoomCallbackTargets;
+	LobbyCallbacksContainer_tEF75E5B06B44AD5DE298FA7C597901BAE1E352FC* ___LobbyCallbackTargets;
+	WebRpcCallbacksContainer_t88E62A57DFEECEC90CE6EC40A270C0C188AD1851* ___WebRpcCallbackTargets;
+	ErrorInfoCallbacksContainer_tF60CA97691A86635843C02EEA1D689A384BC7ED7* ___ErrorInfoCallbackTargets;
+	int32_t ___U3CDisconnectedCauseU3Ek__BackingField;
+	String_t* ___DisconnectMessage;
+	bool ___TelemetryEnabled;
+	bool ___telemetrySent;
+	SystemConnectionSummary_t42DEF00A80373BAC571B4CCF960BB85E7155819A* ___SystemConnectionSummary;
+	TypedLobby_t29F38D993E984979E53A9212143F1B770EEC6DB9* ___U3CCurrentLobbyU3Ek__BackingField;
+	bool ___EnableLobbyStatistics;
+	List_1_t9502060F404ACB6B9ACF04BFA5D0DFC653142A15* ___lobbyStatistics;
+	Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA363C* ___U3CLocalPlayerU3Ek__BackingField;
+	Room_t9CCA5C06B8CE2E5E1EE24AD17360F218C4E36373* ___U3CCurrentRoomU3Ek__BackingField;
+	int32_t ___U3CPlayersOnMasterCountU3Ek__BackingField;
+	int32_t ___U3CPlayersInRoomsCountU3Ek__BackingField;
+	int32_t ___U3CRoomsCountU3Ek__BackingField;
+	int32_t ___lastJoinType;
+	EnterRoomParams_t58DD2969FFB1BA8273A3294BF5C314B60089ABB9* ___enterRoomParamsCache;
+	OperationResponse_t19D9B9933391EE79E5DEB2F8AECE02D5519E65ED* ___failedRoomEntryOperation;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___friendListRequested;
+	String_t* ___U3CCloudRegionU3Ek__BackingField;
+	String_t* ___U3CCurrentClusterU3Ek__BackingField;
+	RegionHandler_tF76A25E25C3BF915FDFBEA81372D9D7858087EBB* ___RegionHandler;
+	String_t* ___bestRegionSummaryFromStorage;
+	String_t* ___SummaryToCache;
+	bool ___connectToBestRegion;
+	Queue_1_t9BA80EF655597EC91F8BA37831960B5B70540B02* ___callbackTargetChanges;
+	HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* ___callbackTargets;
+	int32_t ___NameServerPortInAppSettings;
+};
+struct LoadBalancingPeer_t8C350A611B061F0EA1DE76C03AFD0CE19070E81F  : public PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C
+{
+	Pool_1_t47635E10016E83A1E327B583977D1F043544FB48* ___paramDictionaryPool;
+};
+struct ServerSettings_t41BE4338E7E76BFB4919D4039BAFC6799E242152  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
+{
+	AppSettings_tF847AF39732C3BF8BECBCCAC41D186A0B79123F7* ___AppSettings;
+	String_t* ___DevRegion;
+	int32_t ___PunLogging;
+	bool ___EnableSupportLogger;
+	bool ___RunInBackground;
+	bool ___StartInOfflineMode;
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___RpcList;
+};
+struct LoadBalancingTransport_tCBC427B25D0F207FCC8E751172AE1402A5230C80  : public LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4
+{
+	VoiceClient_t8038478A87E8F714C44193FC74D2A22BC7FDFB4E* ___voiceClient;
+	PhotonTransportProtocol_tDBD08C0E3F1F28676B0573F86D9BC19564FCA700* ___protocol;
+	bool ___cppCompatibilityMode;
+	RuntimeObject* ___logger;
+};
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___m_CancellationTokenSource;
+};
+struct ConnectionHandler_t94DB2DB95E1E5AC42D211A71B3829706DCF6ECB4  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4* ___U3CClientU3Ek__BackingField;
+	bool ___DisconnectAfterKeepAlive;
+	int32_t ___KeepAliveInBackground;
+	int32_t ___U3CCountSendAcksOnlyU3Ek__BackingField;
+	bool ___U3CFallbackThreadRunningU3Ek__BackingField;
+	bool ___ApplyDontDestroyOnLoad;
+	bool ___didSendAcks;
+	Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* ___backgroundStopwatch;
+	Timer_t763C1D5F5A36087DC92C7DA4D1F8AB578F83AB00* ___stateTimer;
+};
+struct MonoBehaviourPun_t64DD82CBA1C47A70448DAB2263AB90A4411621BD  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	PhotonView_t43F3D22FF3D00F7824E82D741D70F9CB55642E6B* ___pvCache;
+};
+struct PhotonView_t43F3D22FF3D00F7824E82D741D70F9CB55642E6B  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	uint8_t ___Group;
+	int32_t ___prefixField;
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___instantiationDataField;
+	List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* ___lastOnSerializeDataSent;
+	List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* ___syncValues;
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___lastOnSerializeDataReceived;
+	int32_t ___Synchronization;
+	bool ___mixedModeIsReliable;
+	int32_t ___OwnershipTransfer;
+	int32_t ___observableSearch;
+	List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* ___ObservedComponents;
+	MonoBehaviourU5BU5D_tEB91860B3CEE2D63A7833A2842EB9CE4547DDBD7* ___RpcMonoBehaviours;
+	bool ___U3CIsMineU3Ek__BackingField;
+	Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA363C* ___U3CControllerU3Ek__BackingField;
+	int32_t ___U3CCreatorActorNrU3Ek__BackingField;
+	bool ___U3CAmOwnerU3Ek__BackingField;
+	Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA363C* ___U3COwnerU3Ek__BackingField;
+	int32_t ___ownerActorNr;
+	int32_t ___controllerActorNr;
+	int32_t ___sceneViewId;
+	int32_t ___viewIdField;
+	int32_t ___InstantiationId;
+	bool ___isRuntimeInstantiated;
+	bool ___removedFromLocalViewList;
+	Queue_1_tF178FEC52A1E31BA7A3C30BE84E4770D020B061B* ___CallbackChangeQueue;
+	List_1_tA7AAD9C9730173B4B69D3E42B07AF11817191181* ___OnPreNetDestroyCallbacks;
+	List_1_t7628C79979ECE33C758FA5C52526761CA20F2167* ___OnOwnerChangeCallbacks;
+	List_1_tAE460F42AC335F9ADFDAB761B93C2E8883845E5F* ___OnControllerChangeCallbacks;
+};
+struct VoiceComponent_t453054E310D019B00B0571863F2C5E66DA8629FF  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	VoiceComponentImpl_t0F6CF304701B2CD643B645A6378645F69E396C90* ___impl;
+};
+struct VoiceLogger_t43ABA98917D5D00D8121A67D03DDB5EDB721F0D7  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	int32_t ___LogLevel;
+};
+struct PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9  : public VoiceComponent_t453054E310D019B00B0571863F2C5E66DA8629FF
+{
+	PhotonView_t43F3D22FF3D00F7824E82D741D70F9CB55642E6B* ___photonView;
+	PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* ___punVoiceClient;
+	Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* ___U3CRecorderInUseU3Ek__BackingField;
+	Speaker_tBD124E6AEFF169667A9441881B3A98F122AE4ADE* ___U3CSpeakerInUseU3Ek__BackingField;
+};
+struct Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C  : public VoiceComponent_t453054E310D019B00B0571863F2C5E66DA8629FF
+{
+	bool ___voiceDetection;
+	float ___voiceDetectionThreshold;
+	int32_t ___voiceDetectionDelayMs;
+	RuntimeObject* ___userData;
+	LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* ___voice;
+	RuntimeObject* ___inputSource;
+	VoiceConnection_tB1A14C698697002D8D57FA47F332A44E7E294DB3* ___voiceConnection;
+	uint8_t ___interestGroup;
+	bool ___useTargetPlayers;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___targetPlayers;
+	bool ___debugEchoMode;
+	bool ___reliableMode;
+	bool ___encrypt;
+	bool ___transmitEnabled;
+	int32_t ___samplingRate;
+	int32_t ___frameDuration;
+	int32_t ___bitrate;
+	int32_t ___sourceType;
+	int32_t ___microphoneType;
+	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___audioClip;
+	bool ___loopAudioClip;
+	bool ___recordingEnabled;
+	Func_1_t70BAAB9F1D00714988C7BA974AF43D14365CBD68* ___inputFactory;
+	AudioSessionParameters_t1AF1732698B36F46E4914C11DE013498CD279C37 ___audioSessionParameters;
+	AndroidAudioInParameters_t7212C4A7649E84B331F6B2C50AB43A50F4B66D0A ___androidMicrophoneSettings;
+	bool ___isPausedOrInBackground;
+	bool ___stopRecordingWhenPaused;
+	bool ___useOnAudioFilterRead;
+	bool ___useMicrophoneTypeFallback;
+	bool ___recordWhenJoined;
+	DeviceInfo_tC91EF4D866BBBA8B68A503B620A00F15C60C2335 ___microphoneDevice;
+	int32_t ___microphoneDeviceChangePending;
+	int32_t ___restartRecordingPending;
+};
+struct Speaker_tBD124E6AEFF169667A9441881B3A98F122AE4ADE  : public VoiceComponent_t453054E310D019B00B0571863F2C5E66DA8629FF
+{
+	RuntimeObject* ___audioOutput;
+	PlayDelayConfig_t7E2F00F08A8F2A3D47AFDD64347913B6409871E2 ___playDelayConfig;
+	bool ___restartOnDeviceChange;
+	Action_1_t8567C9C86A4F384D0A5DD2E75B392F263E3C7229* ___U3COnRemoteVoiceRemoveActionU3Ek__BackingField;
+	RemoteVoiceLink_tC6B459D4BE83C680417FE28AAA063F8163D7F4E4* ___U3CRemoteVoiceU3Ek__BackingField;
+	int32_t ___restartPlaybackPending;
+};
+struct VoiceConnection_tB1A14C698697002D8D57FA47F332A44E7E294DB3  : public ConnectionHandler_t94DB2DB95E1E5AC42D211A71B3829706DCF6ECB4
+{
+	VoiceComponentImpl_t0F6CF304701B2CD643B645A6378645F69E396C90* ___voiceComponentImpl;
+	LoadBalancingTransport_tCBC427B25D0F207FCC8E751172AE1402A5230C80* ___client;
+	SupportLogger_t853FFDC016DE6BEBBC2DBBF6EA668299E4C524DD* ___supportLoggerComponent;
+	bool ___runInBackground;
+	int32_t ___statsResetInterval;
+	int32_t ___lastService;
+	int32_t ___lastStatsUpdate;
+	float ___statsReferenceTime;
+	int32_t ___referenceFramesLost;
+	int32_t ___referenceFramesReceived;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___speakerPrefab;
+	List_1_t823310AB4F398AE467887CC898545B689B70003F* ___cachedRemoteVoices;
+	Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* ___primaryRecorder;
+	bool ___usePrimaryRecorder;
+	bool ___cppCompatibilityMode;
+	List_1_t581C6CC97545A3BE378779CD0B20D123D6DCF950* ___linkedSpeakers;
+	List_1_tBFD6B7B62FB7763BC57224ED666A855ACCD05536* ___recorders;
+	AppSettings_tF847AF39732C3BF8BECBCCAC41D186A0B79123F7* ___Settings;
+	Action_1_t8567C9C86A4F384D0A5DD2E75B392F263E3C7229* ___SpeakerLinked;
+	Action_1_tEDBE6144CEB293C0905C68B84BB211D3950274B3* ___RemoteVoiceAdded;
+	float ___U3CFramesReceivedPerSecondU3Ek__BackingField;
+	float ___U3CFramesLostPerSecondU3Ek__BackingField;
+	float ___U3CFramesLostPercentU3Ek__BackingField;
+};
+struct VoiceDebugScript_t4AA28FE575EF14AC7BBA68FAFBB0F70E8F503315  : public MonoBehaviourPun_t64DD82CBA1C47A70448DAB2263AB90A4411621BD
+{
+	PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* ___photonVoiceView;
+	bool ___ForceRecordingAndTransmission;
+	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___TestAudioClip;
+	bool ___TestUsingAudioClip;
+	bool ___DisableVad;
+	bool ___IncreaseLogLevels;
+	bool ___LocalDebug;
+};
+struct VoiceFollowClient_t18D05F6221E05816A23048B86F1259AD511E2EF2  : public VoiceConnection_tB1A14C698697002D8D57FA47F332A44E7E294DB3
+{
+	bool ___AutoConnectAndJoin;
+	bool ___manualDisconnect;
+	bool ___errAuthOrJoin;
+};
+struct PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1  : public VoiceFollowClient_t18D05F6221E05816A23048B86F1259AD511E2EF2
+{
+	bool ___usePunAppSettings;
+	bool ___usePunAuthValues;
+};
+struct EmptyArray_1_tDF0DD7256B115243AA6BD5558417387A734240EE_StaticFields
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___Value;
+};
+struct U3CPrivateImplementationDetailsU3E_t688B7693867865E134CCE77BB80CE581B4346187_StaticFields
+{
+	__StaticArrayInitTypeSizeU3D201_t30D2D608302BE36B56FA714A1803009A46CD7A27 ___3F6066F91F10495905AB9E182E8B0C34D201B67A080F44B6B69E2CF05108DC7E;
+	__StaticArrayInitTypeSizeU3D126_t54A35E764B8B733052D7B8FDC12F18CE62130384 ___9CA20CD97D091DC728AAD89E455BAE63C38813A9A385E971C78B8D7C5C5357C8;
+};
+struct PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_StaticFields
+{
+	String_t* ___gameVersion;
+	LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4* ___NetworkingClient;
+	int32_t ___MAX_VIEW_IDS;
+	ServerSettings_t41BE4338E7E76BFB4919D4039BAFC6799E242152* ___photonServerSettings;
+	int32_t ___ConnectMethod;
+	int32_t ___LogLevel;
+	bool ___EnableCloseConnection;
+	float ___PrecisionForVectorSynchronization;
+	float ___PrecisionForQuaternionSynchronization;
+	float ___PrecisionForFloatSynchronization;
+	bool ___offlineMode;
+	Room_t9CCA5C06B8CE2E5E1EE24AD17360F218C4E36373* ___offlineModeRoom;
+	bool ___automaticallySyncScene;
+	int32_t ___sendFrequency;
+	int32_t ___serializationFrequency;
+	bool ___isMessageQueueRunning;
+	double ___frametime;
+	int32_t ___frame;
+	Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* ___StartupStopwatch;
+	float ___MinimalTimeScaleToDispatchInFixedUpdate;
+	bool ___U3CUseAlternativeUdpPortsU3Ek__BackingField;
+	int32_t ___lastUsedViewSubId;
+	int32_t ___lastUsedViewSubIdStatic;
+	HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* ___PrefabsWithoutMagicCallback;
+	Hashtable_tD626399B3ADFD501225241D7366103F35472542A* ___SendInstantiateEvHashtable;
+	RaiseEventOptions_tAEB3A9A0993C52981809954BC2DB304E887D852E* ___SendInstantiateRaiseEventOptions;
+	HashSet_1_t0B39EF96E81D9617D3E4536032F30E1AE7610153* ___allowedReceivingGroups;
+	HashSet_1_t0B39EF96E81D9617D3E4536032F30E1AE7610153* ___blockedSendingGroups;
+	HashSet_1_t5B6B46270D543F8EDB3F122B02D36E60196CB13B* ___reusablePVHashset;
+	NonAllocDictionary_2_tC9904455C122E50478272CC5522AD956A7BB5F12* ___photonViewList;
+	Action_2_tAA2E46B2015896D2C3FD7EC72B52C340E8EFF4C4* ___OnOwnershipRequestEv;
+	Action_2_tAA2E46B2015896D2C3FD7EC72B52C340E8EFF4C4* ___OnOwnershipTransferedEv;
+	Action_2_tAA2E46B2015896D2C3FD7EC72B52C340E8EFF4C4* ___OnOwnershipTransferFailedEv;
+	uint8_t ___currentLevelPrefix;
+	bool ___loadingLevelAndPausedNetwork;
+	RuntimeObject* ___prefabPool;
+	bool ___UseRpcMonoBehaviourCache;
+	Dictionary_2_t681C2D0152C2184DCA6AD773603D0FE709D338C9* ___monoRPCMethodsCache;
+	Dictionary_2_t5C8F46F5D57502270DD9E1DA8303B23C7FE85588* ___rpcShortcuts;
+	bool ___RunRpcCoroutines;
+	AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* ____AsyncLevelLoadingOperation;
+	float ____levelLoadingProgress;
+	Type_t* ___typePunRPC;
+	Type_t* ___typePhotonMessageInfo;
+	RuntimeObject* ___keyByteZero;
+	RuntimeObject* ___keyByteOne;
+	RuntimeObject* ___keyByteTwo;
+	RuntimeObject* ___keyByteThree;
+	RuntimeObject* ___keyByteFour;
+	RuntimeObject* ___keyByteFive;
+	RuntimeObject* ___keyByteSix;
+	RuntimeObject* ___keyByteSeven;
+	RuntimeObject* ___keyByteEight;
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___emptyObjectArray;
+	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___emptyTypeArray;
+	List_1_t4AAED60DF1950E8D05C3BFEB57C6A43FBFD440B5* ___foundPVs;
+	Hashtable_tD626399B3ADFD501225241D7366103F35472542A* ___removeFilter;
+	Hashtable_tD626399B3ADFD501225241D7366103F35472542A* ___ServerCleanDestroyEvent;
+	RaiseEventOptions_tAEB3A9A0993C52981809954BC2DB304E887D852E* ___ServerCleanOptions;
+	RaiseEventOptions_tAEB3A9A0993C52981809954BC2DB304E887D852E* ___SendToAllOptions;
+	RaiseEventOptions_tAEB3A9A0993C52981809954BC2DB304E887D852E* ___SendToOthersOptions;
+	RaiseEventOptions_tAEB3A9A0993C52981809954BC2DB304E887D852E* ___SendToSingleOptions;
+	Hashtable_tD626399B3ADFD501225241D7366103F35472542A* ___rpcFilterByViewId;
+	RaiseEventOptions_tAEB3A9A0993C52981809954BC2DB304E887D852E* ___OpCleanRpcBufferOptions;
+	Hashtable_tD626399B3ADFD501225241D7366103F35472542A* ___rpcEvent;
+	RaiseEventOptions_tAEB3A9A0993C52981809954BC2DB304E887D852E* ___RpcOptionsToAll;
+	int32_t ___ObjectsInOneUpdate;
+	PhotonStream_t51D26D86E501F1931A26F2CF1C7D915D690CBD2E* ___serializeStreamOut;
+	PhotonStream_t51D26D86E501F1931A26F2CF1C7D915D690CBD2E* ___serializeStreamIn;
+	RaiseEventOptions_tAEB3A9A0993C52981809954BC2DB304E887D852E* ___serializeRaiseEvOptions;
+	Dictionary_2_t47C3B85708CBFB02F30AF23A5D4092EC2DAD8636* ___serializeViewBatches;
+	RegionHandler_tF76A25E25C3BF915FDFBEA81372D9D7858087EBB* ____cachedRegionHandler;
+};
+struct String_t_StaticFields
+{
+	String_t* ___Empty;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	String_t* ___TrueString;
+	String_t* ___FalseString;
+};
+struct IntPtr_t_StaticFields
+{
+	intptr_t ___Zero;
+};
+struct PhotonPortDefinition_t75A54992188E1DC3FF910A00927F213E7198590A_StaticFields
+{
+	PhotonPortDefinition_t75A54992188E1DC3FF910A00927F213E7198590A ___AlternativeUdpPorts;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject;
+};
+struct PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C_StaticFields
+{
+	bool ___NoNativeCallbacks;
+	String_t* ___clientVersion;
+	bool ___NativeSocketLibAvailable;
+	bool ___NativePayloadEncryptionLibAvailable;
+	bool ___NativeDatagramEncryptionLibAvailable;
+	int32_t ___OutgoingStreamBufferSize;
+	bool ___AsyncKeyExchange;
+};
+struct LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4_StaticFields
+{
+	Dictionary_2_tCA6FC027A4EAE9285D2860309E61DB2B271D9A80* ___ProtocolToNameServerPort;
+};
+struct PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1_StaticFields
+{
+	PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* ___instance;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031  : public RuntimeArray
+{
+	ALIGN_FIELD (8) uint8_t m_Items[1];
+
+	inline uint8_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, uint8_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline uint8_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, uint8_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918  : public RuntimeArray
+{
+	ALIGN_FIELD (8) RuntimeObject* m_Items[1];
+
+	inline RuntimeObject* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline RuntimeObject* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct RecorderU5BU5D_tAAB13195DDDDEAC2F7880901A37700F4D4429C1D  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* m_Items[1];
+
+	inline Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct SpeakerU5BU5D_t219347C6659D7D19D460CE8790C5F285F35C1589  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Speaker_tBD124E6AEFF169667A9441881B3A98F122AE4ADE* m_Items[1];
+
+	inline Speaker_tBD124E6AEFF169667A9441881B3A98F122AE4ADE* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Speaker_tBD124E6AEFF169667A9441881B3A98F122AE4ADE** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Speaker_tBD124E6AEFF169667A9441881B3A98F122AE4ADE* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline Speaker_tBD124E6AEFF169667A9441881B3A98F122AE4ADE* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Speaker_tBD124E6AEFF169667A9441881B3A98F122AE4ADE** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Speaker_tBD124E6AEFF169667A9441881B3A98F122AE4ADE* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct PunVoiceClientU5BU5D_tA9E595CE512FF5D14568F8D20D4D2D0424190234  : public RuntimeArray
+{
+	ALIGN_FIELD (8) PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* m_Items[1];
+
+	inline PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct VoiceLoggerU5BU5D_t2EAAFCE8EAC2A25FE8F16DDF75F3FCD04D846410  : public RuntimeArray
+{
+	ALIGN_FIELD (8) VoiceLogger_t43ABA98917D5D00D8121A67D03DDB5EDB721F0D7* m_Items[1];
+
+	inline VoiceLogger_t43ABA98917D5D00D8121A67D03DDB5EDB721F0D7* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline VoiceLogger_t43ABA98917D5D00D8121A67D03DDB5EDB721F0D7** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, VoiceLogger_t43ABA98917D5D00D8121A67D03DDB5EDB721F0D7* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline VoiceLogger_t43ABA98917D5D00D8121A67D03DDB5EDB721F0D7* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline VoiceLogger_t43ABA98917D5D00D8121A67D03DDB5EDB721F0D7** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, VoiceLogger_t43ABA98917D5D00D8121A67D03DDB5EDB721F0D7* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_gshared_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Component_GetComponentsInChildren_TisRuntimeObject_m1F5B6FC0689B07D4FAAC0C605D9B2933A9B32543_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Component_GetComponentsInChildren_TisRuntimeObject_m90734C3A39A158985239CB90DE2F0792F1D99926_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, bool ___0_includeInactive, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Object_FindObjectsByType_TisRuntimeObject_m9F3B83321CD4E4F4F764805ADCEF338CF2BA8409_gshared (int32_t ___0_sortMode, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_2__ctor_mEBF3FAD6176B0ABD7207DA4D7239671D972C82E6_gshared (Action_2_t43544BAAB4CC69E54228A3389CC3D57A805208A2* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B (RuntimeArray* ___0_array, RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 ___1_fldHandle, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Speaker_tBD124E6AEFF169667A9441881B3A98F122AE4ADE* PhotonVoiceView_get_SpeakerInUse_m2B9E01349729560A84C0CFE8C039082CBCB9B0CF_inline (PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Speaker_get_IsPlaying_m7F784C6E15456AD329779754D88D97E6C81BD842 (Speaker_tBD124E6AEFF169667A9441881B3A98F122AE4ADE* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* PhotonVoiceView_get_RecorderInUse_m81ED4D96A4DD34A4890843E7C485ABA2707B3A6A_inline (PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Recorder_get_IsCurrentlyTransmitting_m0DF2BF010EAC026A19DC9B9FD67A3712594B54C2 (Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceComponent_Awake_m6AC34084B90505F4064B4CDE0671C36B3538DFF0 (VoiceComponent_t453054E310D019B00B0571863F2C5E66DA8629FF* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* PunVoiceClient_get_Instance_mFF6218976A4107045A96D145BC6C5249B1946D8A (const RuntimeMethod* method) ;
+inline PhotonView_t43F3D22FF3D00F7824E82D741D70F9CB55642E6B* Component_GetComponent_TisPhotonView_t43F3D22FF3D00F7824E82D741D70F9CB55642E6B_m746044A420F6E334D6664146FCFE7569712D22E2 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  PhotonView_t43F3D22FF3D00F7824E82D741D70F9CB55642E6B* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool PhotonView_get_IsMine_mE26FB70A42C0D92C66536B45D7A7F8F491C8D648_inline (PhotonView_t43F3D22FF3D00F7824E82D741D70F9CB55642E6B* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonVoiceView_SetupRecorder_m66B408E518653BB1F599679C779F29A4FBB0FEF2 (PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* VoiceComponent_get_Logger_mC64FBDB8EB5AF8DA71142ECE8B6963BAC484FC40 (VoiceComponent_t453054E310D019B00B0571863F2C5E66DA8629FF* __this, const RuntimeMethod* method) ;
+inline ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline (const RuntimeMethod* method)
+{
+	return ((  ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* (*) (const RuntimeMethod*))Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_gshared_inline)(method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Behaviour_get_isActiveAndEnabled_mEB4ECCE9761A7016BC619557CEFEA1A30D3BF28A (Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonVoiceView_SetupSpeaker_m689EFE250AF050102CC9D2A28EDF14026A3D3E64 (PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PhotonView_get_ViewID_m69795CA0AB8AB13740BEDAD899BED88745F4C8A5 (PhotonView_t43F3D22FF3D00F7824E82D741D70F9CB55642E6B* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VoiceConnection_AddSpeaker_m255966C4FF57ACA47BA15C49CE3F65547ADEB02B (VoiceConnection_tB1A14C698697002D8D57FA47F332A44E7E294DB3* __this, Speaker_tBD124E6AEFF169667A9441881B3A98F122AE4ADE* ___0_speaker, RuntimeObject* ___1_userData, const RuntimeMethod* method) ;
+inline RecorderU5BU5D_tAAB13195DDDDEAC2F7880901A37700F4D4429C1D* Component_GetComponentsInChildren_TisRecorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C_mDAB4705723E98C6792AE2864689F9C8182851FEE (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  RecorderU5BU5D_tAAB13195DDDDEAC2F7880901A37700F4D4429C1D* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponentsInChildren_TisRuntimeObject_m1F5B6FC0689B07D4FAAC0C605D9B2933A9B32543_gshared)(__this, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* VoiceConnection_get_PrimaryRecorder_m1DA6ED8BC914F3EAFBDC46288F5F0C70B904E5C7_inline (VoiceConnection_tB1A14C698697002D8D57FA47F332A44E7E294DB3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Recorder_set_UserData_m1C4EEB773903B76FAA6A48AD20B670189237CDE0 (Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VoiceConnection_AddRecorder_mB900C30435DC2504DD5B8D1AC09EFF869026FC34 (VoiceConnection_tB1A14C698697002D8D57FA47F332A44E7E294DB3* __this, Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* ___0_rec, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PhotonVoiceView_set_RecorderInUse_m5AB337A396F56EED36C91A6E3346BFD8F5207284_inline (PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* __this, Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceConnection_RemoveRecorder_m12180A6A74203EF2997F2011FD15CD2E59A83E97 (VoiceConnection_tB1A14C698697002D8D57FA47F332A44E7E294DB3* __this, Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* ___0_rec, const RuntimeMethod* method) ;
+inline SpeakerU5BU5D_t219347C6659D7D19D460CE8790C5F285F35C1589* Component_GetComponentsInChildren_TisSpeaker_tBD124E6AEFF169667A9441881B3A98F122AE4ADE_m62F935FB313C574220B837413E1E706B459EE5D6 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, bool ___0_includeInactive, const RuntimeMethod* method)
+{
+	return ((  SpeakerU5BU5D_t219347C6659D7D19D460CE8790C5F285F35C1589* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, bool, const RuntimeMethod*))Component_GetComponentsInChildren_TisRuntimeObject_m90734C3A39A158985239CB90DE2F0792F1D99926_gshared)(__this, ___0_includeInactive, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* VoiceConnection_get_SpeakerPrefab_m826BAD6BF3DBF46103C4E21FFB9A164D9BBCF997_inline (VoiceConnection_tB1A14C698697002D8D57FA47F332A44E7E294DB3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Speaker_tBD124E6AEFF169667A9441881B3A98F122AE4ADE* VoiceConnection_InstantiateSpeakerPrefab_mDD60AB3AD1E77FD893A7FB8FD131E099CDAAB8A1 (VoiceConnection_tB1A14C698697002D8D57FA47F332A44E7E294DB3* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_parent, bool ___1_destroyOnRemove, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PhotonVoiceView_set_SpeakerInUse_mB96442AF8DEDD8481ACF2E4F0E0E54F560017B38_inline (PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* __this, Speaker_tBD124E6AEFF169667A9441881B3A98F122AE4ADE* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceComponent__ctor_mB6C412309DC148E0BC5729DEE8FAE7DDFBA5AC58 (VoiceComponent_t453054E310D019B00B0571863F2C5E66DA8629FF* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PhotonNetwork_get_InRoom_mFBE0C1A516C34FBAD9923933C73E07080FDA199D (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PhotonNetwork_get_OfflineMode_m57596042EE764187C75DEAC48E6F420799C192C2 (const RuntimeMethod* method) ;
+inline PunVoiceClientU5BU5D_tA9E595CE512FF5D14568F8D20D4D2D0424190234* Object_FindObjectsByType_TisPunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1_m11BD56675801E50F778B65238FBFBA0455350544 (int32_t ___0_sortMode, const RuntimeMethod* method)
+{
+	return ((  PunVoiceClientU5BU5D_tA9E595CE512FF5D14568F8D20D4D2D0424190234* (*) (int32_t, const RuntimeMethod*))Object_FindObjectsByType_TisRuntimeObject_m9F3B83321CD4E4F4F764805ADCEF338CF2BA8409_gshared)(___0_sortMode, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject__ctor_m7D0340DE160786E6EFA8DABD39EC3B694DA30AAD (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* __this, String_t* ___0_value, const RuntimeMethod* method) ;
+inline PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* GameObject_AddComponent_TisPunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1_m8E34F6F5401D5E1DC72D08DF76466DBD2EC993BA (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* VoiceConnection_get_Logger_m7446F33A34958679EB2AD1DFDC07148CA79F29A8 (VoiceConnection_tB1A14C698697002D8D57FA47F332A44E7E294DB3* __this, const RuntimeMethod* method) ;
+inline void Action_2__ctor_m914229254E2DD1066D0E81418D2410B78F40DEBB (Action_2_t3EC2669A751FDF2FFFA36356EC41244433164490* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (Action_2_t3EC2669A751FDF2FFFA36356EC41244433164490*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_2__ctor_mEBF3FAD6176B0ABD7207DA4D7239671D972C82E6_gshared)(__this, ___0_object, ___1_method, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingClient_add_StateChanged_mA6384FF2BBFAD74989F27734C0A2251F6F470EB9 (LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4* __this, Action_2_t3EC2669A751FDF2FFFA36356EC41244433164490* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceFollowClient_Start_m4D5FB0F09E187A78CD44BA27DF5181C53B7E0BAC (VoiceFollowClient_t18D05F6221E05816A23048B86F1259AD511E2EF2* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool VoiceConnection_get_UsePrimaryRecorder_m50587F8EEAE8AA3D379D8738E72F9128EE2B41C5_inline (VoiceConnection_tB1A14C698697002D8D57FA47F332A44E7E294DB3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingClient_remove_StateChanged_m05D0CADDC74CE72BDD2CC9BBCBA8257D9CACD85B (LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4* __this, Action_2_t3EC2669A751FDF2FFFA36356EC41244433164490* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceFollowClient_OnDestroy_m8A2F8536334503E0381C2A1694B468A2EC623F17 (VoiceFollowClient_t18D05F6221E05816A23048B86F1259AD511E2EF2* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PhotonView_t43F3D22FF3D00F7824E82D741D70F9CB55642E6B* PhotonView_Find_m0882E2232D4EAB45F754B4FAFEE5E6EA54DF7707 (int32_t ___0_viewID, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_exists, const RuntimeMethod* method) ;
+inline PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* Component_GetComponent_TisPhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9_mC1E04F504797B33976B8C685BAD42A0AC1D478BB (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Room_t9CCA5C06B8CE2E5E1EE24AD17360F218C4E36373* PhotonNetwork_get_CurrentRoom_m72D3601299E109EED858E132DE1BD316226BA38D (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Room_get_Name_m8C466150335A007F72B11711AB64F9F62288D500 (Room_t9CCA5C06B8CE2E5E1EE24AD17360F218C4E36373* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478 (String_t* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceFollowClient_LeaderStateChanged_mBA694E83554D0C0132C280AF135E906D77B8FC78 (VoiceFollowClient_t18D05F6221E05816A23048B86F1259AD511E2EF2* __this, int32_t ___0_toState, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppSettings__ctor_m0E9EF98D6C1FB02C989504407836FDA2B019AA43 (AppSettings_tF847AF39732C3BF8BECBCCAC41D186A0B79123F7* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ServerSettings_t41BE4338E7E76BFB4919D4039BAFC6799E242152* PhotonNetwork_get_PhotonServerSettings_mEB0FD5D91970368EE4D23AA12213DAD57B8D1097 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AppSettings_tF847AF39732C3BF8BECBCCAC41D186A0B79123F7* AppSettings_CopyTo_mE304EF3079424281AC51411AB237969412FD6F93 (AppSettings_tF847AF39732C3BF8BECBCCAC41D186A0B79123F7* __this, AppSettings_tF847AF39732C3BF8BECBCCAC41D186A0B79123F7* ___0_d, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* PhotonNetwork_get_CloudRegion_mB5B2C20FAB0892E2CCBCEF249C2146497AECB16E (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LoadBalancingTransport_tCBC427B25D0F207FCC8E751172AE1402A5230C80* VoiceConnection_get_Client_mE6A4D18E641A8567EE490AE5A81ECC9468F8B30F (VoiceConnection_tB1A14C698697002D8D57FA47F332A44E7E294DB3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PhotonPortDefinition_t75A54992188E1DC3FF910A00927F213E7198590A PhotonNetwork_get_ServerPortOverrides_m60C22399610CA6B917E250C92483AA5113C2AA8F (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LoadBalancingClient_get_SerializationProtocol_m9A1630A2C16C42D3914CA6787453B4BCCB9AD756 (LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingClient_set_SerializationProtocol_m1DF8CED4E6C037D95C5DB7B2562AA934057FDC12 (LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PunVoiceClient_get_UsePunAuthValues_m64D747A136589F274AC4CC9EB70192843760D51F (PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7* PhotonNetwork_get_AuthValues_mF4E6173BA3C5E848ABF50755644C01CF6DB7D341 (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7* LoadBalancingClient_get_AuthValues_m58A41749A2B67F2B76EDD8C8B28A32FAA60977AA_inline (LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthenticationValues__ctor_mFA23E096E1262DF1C8167BD077DD17C7B1BE9D9D (AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void LoadBalancingClient_set_AuthValues_mAFB66C3CFA04587CBA1A60711581B2BA6C6FD84C_inline (LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4* __this, AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7* AuthenticationValues_CopyTo_m7E765A067382A14BB5E1754A652A2B56D293E9C5 (AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7* __this, AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7* ___0_copy, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceFollowClient__ctor_m38215929677BD0C78E59944DA0BD74D0BDC12907 (VoiceFollowClient_t18D05F6221E05816A23048B86F1259AD511E2EF2* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceDebugScript_MaxLogs_mC5F627CE9ED3A19418607F0FE7F3F6ACB05A1DB5 (VoiceDebugScript_t4AA28FE575EF14AC7BBA68FAFBB0F70E8F503315* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2 (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Recorder_set_SourceType_m2DBF84AF542E7662A4302A0D20399C7FC5E1E13D (Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Recorder_set_AudioClip_m6E9024961FCCF2BB761FBCE1A3133DD70FF7433A (Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* __this, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Recorder_set_LoopAudioClip_m22D046CB1C91C2275C4C23AE0B35CA7E4B22F014 (Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Recorder_RestartRecording_m98ABD12F631A9BD6CD54384C04B2CF0D85A03E2C (Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Recorder_set_RecordingEnabled_mC3AE50280E0B44300FCFFE31E4B36BDACAE2694A (Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Recorder_set_TransmitEnabled_mB6B4C554D91CC63D61DBAE8D0C9FA948CD1E1496 (Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Recorder_set_VoiceDetection_m52AF86118A2E56181935DA2F77B7437CDD06CAD0 (Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LoadBalancingClient_get_InRoom_m94253789BA5BD9C81534C4F9682B5E707EF08E78 (LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Speaker_get_IsLinked_mF2F75BD8170F70E4E151117F1CBB059A67B1426C (Speaker_tBD124E6AEFF169667A9441881B3A98F122AE4ADE* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PhotonView_t43F3D22FF3D00F7824E82D741D70F9CB55642E6B* MonoBehaviourPun_get_photonView_m0DBC40909E2E885D7FA3D40157A189FADEE98A67 (MonoBehaviourPun_t64DD82CBA1C47A70448DAB2263AB90A4411621BD* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA363C* PhotonView_get_Owner_m99D611AD5C17B06E4490F75CFAC02C26AABC4A21_inline (PhotonView_t43F3D22FF3D00F7824E82D741D70F9CB55642E6B* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Room_t9CCA5C06B8CE2E5E1EE24AD17360F218C4E36373* LoadBalancingClient_get_CurrentRoom_mADB06D45AD1F8289D93F08F322C9FDB694EAC291_inline (LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR LoadBalancingPeer_t8C350A611B061F0EA1DE76C03AFD0CE19070E81F* LoadBalancingClient_get_LoadBalancingPeer_mF3097AB6F64148B7BF7B1AEFA7FB37DE30AC30C5_inline (LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* PhotonPeer_get_ServerIpAddress_m39ED914DE2093FDAE8B264A3AD9D3A97A02ED59D (PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* LoadBalancingClient_get_AppVersion_mA2E5DE4671D1C7BD67296921DBD776E61F63E388_inline (LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonView_RPC_m985C1C00D88C33FABAE7B0C51AAB32C67A9D010B (PhotonView_t43F3D22FF3D00F7824E82D741D70F9CB55642E6B* __this, String_t* ___0_methodName, Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA363C* ___1_targetPlayer, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___2_parameters, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_Equals_mCD5F35DEDCAFE51ACD4E033726FC2EF8DF7E9B4D (String_t* __this, String_t* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987 (String_t* ___0_format, RuntimeObject* ___1_arg0, RuntimeObject* ___2_arg1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Recorder_get_RecordingEnabled_mEDEDC73670D1A7D991F8341AF27A1B268329D0FA (Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Recorder_get_TransmitEnabled_mD117C665FA63F1C56E815F8808E6B5A02241F91E (Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t Recorder_get_InterestGroup_m766F1E89F3428A4B72F2FECA2A6D500B42D75D0F (Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Recorder_set_InterestGroup_mE20323891F9FA5B34039167207D72DA97017C353 (Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* __this, uint8_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Recorder_get_UserData_m5D5FA3E69ABD3F5CAB96102519995BDF1C488BF7 (Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Recorder_get_VoiceDetection_mF217F20782F7563928EF8A09B5283FF3D5B58F52 (Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PhotonView_get_OwnerActorNr_mD9C14958B5CC4A817C6720FD0BF37A9B61A47FDF (PhotonView_t43F3D22FF3D00F7824E82D741D70F9CB55642E6B* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Player_get_ActorNumber_mE177B60195A5329B1E5D3012295DB0098B7A0F3A (Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA363C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Recorder_get_DebugEchoMode_m727853F9D824E99FE754C56FAE427434E308563F (Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Recorder_set_DebugEchoMode_mF63CA073EC931A8ED3323261BC44A984B158765C (Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceDebugScript_Reply_mC62DA59510C6110A9240288DD4FC39CEDA900FD0 (VoiceDebugScript_t4AA28FE575EF14AC7BBA68FAFBB0F70E8F503315* __this, String_t* ___0_why, Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA363C* ___1_player, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogErrorFormat_m96690322C941D23A125E5769C9803606859A707C (String_t* ___0_format, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method) ;
+inline VoiceLoggerU5BU5D_t2EAAFCE8EAC2A25FE8F16DDF75F3FCD04D846410* Object_FindObjectsByType_TisVoiceLogger_t43ABA98917D5D00D8121A67D03DDB5EDB721F0D7_mFE0135C92C6220D8E85C56E1CBAA705235146A54 (int32_t ___0_sortMode, const RuntimeMethod* method)
+{
+	return ((  VoiceLoggerU5BU5D_t2EAAFCE8EAC2A25FE8F16DDF75F3FCD04D846410* (*) (int32_t, const RuntimeMethod*))Object_FindObjectsByType_TisRuntimeObject_m9F3B83321CD4E4F4F764805ADCEF338CF2BA8409_gshared)(___0_sortMode, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviourPun__ctor_m52771D9D46565807FDF72A7B6622574D38C29A55 (MonoBehaviourPun_t64DD82CBA1C47A70448DAB2263AB90A4411621BD* __this, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 92902
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t18D810034F5D89D44222C9F5E7514811B4BB3FA2 UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m7C9733E6F815490B4E46F86FD71E272A930F044E (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t688B7693867865E134CCE77BB80CE581B4346187____3F6066F91F10495905AB9E182E8B0C34D201B67A080F44B6B69E2CF05108DC7E_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t688B7693867865E134CCE77BB80CE581B4346187____9CA20CD97D091DC728AAD89E455BAE63C38813A9A385E971C78B8D7C5C5357C8_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	MonoScriptData_t18D810034F5D89D44222C9F5E7514811B4BB3FA2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	MonoScriptData_t18D810034F5D89D44222C9F5E7514811B4BB3FA2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_t18D810034F5D89D44222C9F5E7514811B4BB3FA2));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)201));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t688B7693867865E134CCE77BB80CE581B4346187____3F6066F91F10495905AB9E182E8B0C34D201B67A080F44B6B69E2CF05108DC7E_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
+		(&V_0)->___FilePathsData = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___FilePathsData), (void*)L_1);
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)126));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = L_3;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_5 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t688B7693867865E134CCE77BB80CE581B4346187____9CA20CD97D091DC728AAD89E455BAE63C38813A9A385E971C78B8D7C5C5357C8_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_4, L_5, NULL);
+		(&V_0)->___TypesData = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___TypesData), (void*)L_4);
+		(&V_0)->___TotalFiles = 3;
+		(&V_0)->___TotalTypes = 3;
+		(&V_0)->___IsEditorOnly = (bool)0;
+		MonoScriptData_t18D810034F5D89D44222C9F5E7514811B4BB3FA2 L_6 = V_0;
+		V_1 = L_6;
+		goto IL_005a;
+	}
+
+IL_005a:
+	{
+		MonoScriptData_t18D810034F5D89D44222C9F5E7514811B4BB3FA2 L_7 = V_1;
+		return L_7;
+	}
+}
+// Method Definition Index: 92903
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE47A1E3F6F2CAF7F81FA28914D295BFF7EC23132 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tDE33C67869845A9608DD7E9AF07F459FC39BFA66* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C void MonoScriptData_t18D810034F5D89D44222C9F5E7514811B4BB3FA2_marshal_pinvoke(const MonoScriptData_t18D810034F5D89D44222C9F5E7514811B4BB3FA2& unmarshaled, MonoScriptData_t18D810034F5D89D44222C9F5E7514811B4BB3FA2_marshaled_pinvoke& marshaled)
+{
+	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
+	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
+	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
+	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
+	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
+}
+IL2CPP_EXTERN_C void MonoScriptData_t18D810034F5D89D44222C9F5E7514811B4BB3FA2_marshal_pinvoke_back(const MonoScriptData_t18D810034F5D89D44222C9F5E7514811B4BB3FA2_marshaled_pinvoke& marshaled, MonoScriptData_t18D810034F5D89D44222C9F5E7514811B4BB3FA2& unmarshaled)
+{
+	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData));
+	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData));
+	int32_t unmarshaledTotalTypes_temp_2 = 0;
+	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
+	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
+	int32_t unmarshaledTotalFiles_temp_3 = 0;
+	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
+	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
+	bool unmarshaledIsEditorOnly_temp_4 = false;
+	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
+	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t18D810034F5D89D44222C9F5E7514811B4BB3FA2_marshal_pinvoke_cleanup(MonoScriptData_t18D810034F5D89D44222C9F5E7514811B4BB3FA2_marshaled_pinvoke& marshaled)
+{
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
+	marshaled.___FilePathsData = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
+	marshaled.___TypesData = NULL;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t18D810034F5D89D44222C9F5E7514811B4BB3FA2_marshal_com(const MonoScriptData_t18D810034F5D89D44222C9F5E7514811B4BB3FA2& unmarshaled, MonoScriptData_t18D810034F5D89D44222C9F5E7514811B4BB3FA2_marshaled_com& marshaled)
+{
+	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
+	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
+	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
+	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
+	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
+}
+IL2CPP_EXTERN_C void MonoScriptData_t18D810034F5D89D44222C9F5E7514811B4BB3FA2_marshal_com_back(const MonoScriptData_t18D810034F5D89D44222C9F5E7514811B4BB3FA2_marshaled_com& marshaled, MonoScriptData_t18D810034F5D89D44222C9F5E7514811B4BB3FA2& unmarshaled)
+{
+	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData));
+	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData));
+	int32_t unmarshaledTotalTypes_temp_2 = 0;
+	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
+	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
+	int32_t unmarshaledTotalFiles_temp_3 = 0;
+	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
+	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
+	bool unmarshaledIsEditorOnly_temp_4 = false;
+	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
+	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t18D810034F5D89D44222C9F5E7514811B4BB3FA2_marshal_com_cleanup(MonoScriptData_t18D810034F5D89D44222C9F5E7514811B4BB3FA2_marshaled_com& marshaled)
+{
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
+	marshaled.___FilePathsData = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
+	marshaled.___TypesData = NULL;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 92904
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* PhotonVoiceView_get_RecorderInUse_m81ED4D96A4DD34A4890843E7C485ABA2707B3A6A (PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:46>
+		Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* L_0 = __this->___U3CRecorderInUseU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 92905
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonVoiceView_set_RecorderInUse_m5AB337A396F56EED36C91A6E3346BFD8F5207284 (PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* __this, Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:46>
+		Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* L_0 = ___0_value;
+		__this->___U3CRecorderInUseU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CRecorderInUseU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 92906
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Speaker_tBD124E6AEFF169667A9441881B3A98F122AE4ADE* PhotonVoiceView_get_SpeakerInUse_m2B9E01349729560A84C0CFE8C039082CBCB9B0CF (PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:49>
+		Speaker_tBD124E6AEFF169667A9441881B3A98F122AE4ADE* L_0 = __this->___U3CSpeakerInUseU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 92907
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonVoiceView_set_SpeakerInUse_mB96442AF8DEDD8481ACF2E4F0E0E54F560017B38 (PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* __this, Speaker_tBD124E6AEFF169667A9441881B3A98F122AE4ADE* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:49>
+		Speaker_tBD124E6AEFF169667A9441881B3A98F122AE4ADE* L_0 = ___0_value;
+		__this->___U3CSpeakerInUseU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CSpeakerInUseU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 92908
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PhotonVoiceView_get_IsSpeaking_m8412D81FD36F7800BC5E4A1E6E32C50EE691067D (PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	int32_t G_B3_0 = 0;
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:54>
+		Speaker_tBD124E6AEFF169667A9441881B3A98F122AE4ADE* L_0;
+		L_0 = PhotonVoiceView_get_SpeakerInUse_m2B9E01349729560A84C0CFE8C039082CBCB9B0CF_inline(__this, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		Speaker_tBD124E6AEFF169667A9441881B3A98F122AE4ADE* L_2;
+		L_2 = PhotonVoiceView_get_SpeakerInUse_m2B9E01349729560A84C0CFE8C039082CBCB9B0CF_inline(__this, NULL);
+		NullCheck(L_2);
+		bool L_3;
+		L_3 = Speaker_get_IsPlaying_m7F784C6E15456AD329779754D88D97E6C81BD842(L_2, NULL);
+		G_B3_0 = ((int32_t)(L_3));
+		goto IL_001d;
+	}
+
+IL_001c:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_001d:
+	{
+		V_0 = (bool)G_B3_0;
+		goto IL_0020;
+	}
+
+IL_0020:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:54>
+		bool L_4 = V_0;
+		return L_4;
+	}
+}
+// Method Definition Index: 92909
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PhotonVoiceView_get_IsRecording_m402F87721119C1BB8CE611ED8F9D2C2A0905CD6E (PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	int32_t G_B3_0 = 0;
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:60>
+		Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* L_0;
+		L_0 = PhotonVoiceView_get_RecorderInUse_m81ED4D96A4DD34A4890843E7C485ABA2707B3A6A_inline(__this, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* L_2;
+		L_2 = PhotonVoiceView_get_RecorderInUse_m81ED4D96A4DD34A4890843E7C485ABA2707B3A6A_inline(__this, NULL);
+		NullCheck(L_2);
+		bool L_3;
+		L_3 = Recorder_get_IsCurrentlyTransmitting_m0DF2BF010EAC026A19DC9B9FD67A3712594B54C2(L_2, NULL);
+		G_B3_0 = ((int32_t)(L_3));
+		goto IL_001d;
+	}
+
+IL_001c:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_001d:
+	{
+		V_0 = (bool)G_B3_0;
+		goto IL_0020;
+	}
+
+IL_0020:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:60>
+		bool L_4 = V_0;
+		return L_4;
+	}
+}
+// Method Definition Index: 92910
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonVoiceView_Awake_m4B304C1B1825E608E228F776F4CDEE3AF0D8D1C7 (PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisPhotonView_t43F3D22FF3D00F7824E82D741D70F9CB55642E6B_m746044A420F6E334D6664146FCFE7569712D22E2_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:69>
+		VoiceComponent_Awake_m6AC34084B90505F4064B4CDE0671C36B3538DFF0(__this, NULL);
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:70>
+		PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* L_0;
+		L_0 = PunVoiceClient_get_Instance_mFF6218976A4107045A96D145BC6C5249B1946D8A(NULL);
+		__this->___punVoiceClient = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___punVoiceClient), (void*)L_0);
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:71>
+		PhotonView_t43F3D22FF3D00F7824E82D741D70F9CB55642E6B* L_1;
+		L_1 = Component_GetComponent_TisPhotonView_t43F3D22FF3D00F7824E82D741D70F9CB55642E6B_m746044A420F6E334D6664146FCFE7569712D22E2(__this, Component_GetComponent_TisPhotonView_t43F3D22FF3D00F7824E82D741D70F9CB55642E6B_m746044A420F6E334D6664146FCFE7569712D22E2_RuntimeMethod_var);
+		__this->___photonView = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___photonView), (void*)L_1);
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:72>
+		return;
+	}
+}
+// Method Definition Index: 92911
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonVoiceView_Start_m5DB25DE8F467B73863068C2DF0D78BFD4248BB46 (PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral481399EB9E74D247B70B58DD3F2B8A76F6C3D695);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6D151FB1D99E3E0C476B7791FA53B432E15F603F);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral82B1190104BB5B93E0E671FC52196230F07C4616);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	bool V_2 = false;
+	bool V_3 = false;
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:76>
+		PhotonView_t43F3D22FF3D00F7824E82D741D70F9CB55642E6B* L_0 = __this->___photonView;
+		NullCheck(L_0);
+		bool L_1;
+		L_1 = PhotonView_get_IsMine_mE26FB70A42C0D92C66536B45D7A7F8F491C8D648_inline(L_0, NULL);
+		V_0 = L_1;
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0071;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:78>
+		PhotonVoiceView_SetupRecorder_m66B408E518653BB1F599679C779F29A4FBB0FEF2(__this, NULL);
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:79>
+		Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* L_3;
+		L_3 = PhotonVoiceView_get_RecorderInUse_m81ED4D96A4DD34A4890843E7C485ABA2707B3A6A_inline(__this, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_1 = L_4;
+		bool L_5 = V_1;
+		if (!L_5)
+		{
+			goto IL_0043;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:81>
+		RuntimeObject* L_6;
+		L_6 = VoiceComponent_get_Logger_mC64FBDB8EB5AF8DA71142ECE8B6963BAC484FC40(__this, NULL);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_7;
+		L_7 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_6);
+		InterfaceActionInvoker3< int32_t, String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(1, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_6, 2, _stringLiteral6D151FB1D99E3E0C476B7791FA53B432E15F603F, L_7);
+		goto IL_0070;
+	}
+
+IL_0043:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:85>
+		Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* L_8;
+		L_8 = PhotonVoiceView_get_RecorderInUse_m81ED4D96A4DD34A4890843E7C485ABA2707B3A6A_inline(__this, NULL);
+		NullCheck(L_8);
+		bool L_9;
+		L_9 = Behaviour_get_isActiveAndEnabled_mEB4ECCE9761A7016BC619557CEFEA1A30D3BF28A(L_8, NULL);
+		V_2 = (bool)((((int32_t)L_9) == ((int32_t)0))? 1 : 0);
+		bool L_10 = V_2;
+		if (!L_10)
+		{
+			goto IL_006f;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:87>
+		RuntimeObject* L_11;
+		L_11 = VoiceComponent_get_Logger_mC64FBDB8EB5AF8DA71142ECE8B6963BAC484FC40(__this, NULL);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_12;
+		L_12 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_11);
+		InterfaceActionInvoker3< int32_t, String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(1, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_11, 2, _stringLiteral82B1190104BB5B93E0E671FC52196230F07C4616, L_12);
+	}
+
+IL_006f:
+	{
+	}
+
+IL_0070:
+	{
+	}
+
+IL_0071:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:92>
+		PhotonVoiceView_SetupSpeaker_m689EFE250AF050102CC9D2A28EDF14026A3D3E64(__this, NULL);
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:93>
+		Speaker_tBD124E6AEFF169667A9441881B3A98F122AE4ADE* L_13;
+		L_13 = PhotonVoiceView_get_SpeakerInUse_m2B9E01349729560A84C0CFE8C039082CBCB9B0CF_inline(__this, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_14;
+		L_14 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_13, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_3 = L_14;
+		bool L_15 = V_3;
+		if (!L_15)
+		{
+			goto IL_00a3;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:95>
+		RuntimeObject* L_16;
+		L_16 = VoiceComponent_get_Logger_mC64FBDB8EB5AF8DA71142ECE8B6963BAC484FC40(__this, NULL);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_17;
+		L_17 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_16);
+		InterfaceActionInvoker3< int32_t, String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(1, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_16, 2, _stringLiteral481399EB9E74D247B70B58DD3F2B8A76F6C3D695, L_17);
+		goto IL_00c7;
+	}
+
+IL_00a3:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:99>
+		PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* L_18 = __this->___punVoiceClient;
+		Speaker_tBD124E6AEFF169667A9441881B3A98F122AE4ADE* L_19;
+		L_19 = PhotonVoiceView_get_SpeakerInUse_m2B9E01349729560A84C0CFE8C039082CBCB9B0CF_inline(__this, NULL);
+		PhotonView_t43F3D22FF3D00F7824E82D741D70F9CB55642E6B* L_20 = __this->___photonView;
+		NullCheck(L_20);
+		int32_t L_21;
+		L_21 = PhotonView_get_ViewID_m69795CA0AB8AB13740BEDAD899BED88745F4C8A5(L_20, NULL);
+		int32_t L_22 = L_21;
+		RuntimeObject* L_23 = Box(il2cpp_defaults.int32_class, &L_22);
+		NullCheck(L_18);
+		bool L_24;
+		L_24 = VoiceConnection_AddSpeaker_m255966C4FF57ACA47BA15C49CE3F65547ADEB02B(L_18, L_19, L_23, NULL);
+	}
+
+IL_00c7:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:101>
+		return;
+	}
+}
+// Method Definition Index: 92912
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonVoiceView_SetupRecorder_m66B408E518653BB1F599679C779F29A4FBB0FEF2 (PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponentsInChildren_TisRecorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C_mDAB4705723E98C6792AE2864689F9C8182851FEE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1BBA5BC812707330A06468A5C3E57AA6A3580C93);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7A8973A32FBEB43D1721AAF5EB33BEF26EF896C5);
+		s_Il2CppMethodInitialized = true;
+	}
+	Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* V_0 = NULL;
+	RecorderU5BU5D_tAAB13195DDDDEAC2F7880901A37700F4D4429C1D* V_1 = NULL;
+	bool V_2 = false;
+	bool V_3 = false;
+	bool V_4 = false;
+	bool V_5 = false;
+	int32_t G_B7_0 = 0;
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:105>
+		V_0 = (Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C*)NULL;
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:107>
+		RecorderU5BU5D_tAAB13195DDDDEAC2F7880901A37700F4D4429C1D* L_0;
+		L_0 = Component_GetComponentsInChildren_TisRecorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C_mDAB4705723E98C6792AE2864689F9C8182851FEE(__this, Component_GetComponentsInChildren_TisRecorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C_mDAB4705723E98C6792AE2864689F9C8182851FEE_RuntimeMethod_var);
+		V_1 = L_0;
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:108>
+		RecorderU5BU5D_tAAB13195DDDDEAC2F7880901A37700F4D4429C1D* L_1 = V_1;
+		NullCheck(L_1);
+		V_2 = (bool)((!(((uint32_t)(((RuntimeArray*)L_1)->max_length)) <= ((uint32_t)0)))? 1 : 0);
+		bool L_2 = V_2;
+		if (!L_2)
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:110>
+		RecorderU5BU5D_tAAB13195DDDDEAC2F7880901A37700F4D4429C1D* L_3 = V_1;
+		NullCheck(L_3);
+		V_3 = (bool)((((int32_t)((int32_t)(((RuntimeArray*)L_3)->max_length))) > ((int32_t)1))? 1 : 0);
+		bool L_4 = V_3;
+		if (!L_4)
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:112>
+		RuntimeObject* L_5;
+		L_5 = VoiceComponent_get_Logger_mC64FBDB8EB5AF8DA71142ECE8B6963BAC484FC40(__this, NULL);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6;
+		L_6 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_5);
+		InterfaceActionInvoker3< int32_t, String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(1, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_5, 2, _stringLiteral1BBA5BC812707330A06468A5C3E57AA6A3580C93, L_6);
+	}
+
+IL_0037:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:114>
+		RecorderU5BU5D_tAAB13195DDDDEAC2F7880901A37700F4D4429C1D* L_7 = V_1;
+		NullCheck(L_7);
+		int32_t L_8 = 0;
+		Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* L_9 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		V_0 = L_9;
+	}
+
+IL_003c:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:117>
+		Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* L_10 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_11;
+		L_11 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, L_10, NULL);
+		if (!L_11)
+		{
+			goto IL_0058;
+		}
+	}
+	{
+		PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* L_12 = __this->___punVoiceClient;
+		NullCheck(L_12);
+		Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* L_13;
+		L_13 = VoiceConnection_get_PrimaryRecorder_m1DA6ED8BC914F3EAFBDC46288F5F0C70B904E5C7_inline(L_12, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_14;
+		L_14 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, L_13, NULL);
+		G_B7_0 = ((int32_t)(L_14));
+		goto IL_0059;
+	}
+
+IL_0058:
+	{
+		G_B7_0 = 0;
+	}
+
+IL_0059:
+	{
+		V_4 = (bool)G_B7_0;
+		bool L_15 = V_4;
+		if (!L_15)
+		{
+			goto IL_006d;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:119>
+		PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* L_16 = __this->___punVoiceClient;
+		NullCheck(L_16);
+		Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* L_17;
+		L_17 = VoiceConnection_get_PrimaryRecorder_m1DA6ED8BC914F3EAFBDC46288F5F0C70B904E5C7_inline(L_16, NULL);
+		V_0 = L_17;
+	}
+
+IL_006d:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:122>
+		Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* L_18 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_19;
+		L_19 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, L_18, NULL);
+		V_5 = L_19;
+		bool L_20 = V_5;
+		if (!L_20)
+		{
+			goto IL_0095;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:124>
+		RuntimeObject* L_21;
+		L_21 = VoiceComponent_get_Logger_mC64FBDB8EB5AF8DA71142ECE8B6963BAC484FC40(__this, NULL);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_22;
+		L_22 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_21);
+		InterfaceActionInvoker3< int32_t, String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(1, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_21, 2, _stringLiteral7A8973A32FBEB43D1721AAF5EB33BEF26EF896C5, L_22);
+		goto IL_00bb;
+	}
+
+IL_0095:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:128>
+		Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* L_23 = V_0;
+		PhotonView_t43F3D22FF3D00F7824E82D741D70F9CB55642E6B* L_24 = __this->___photonView;
+		NullCheck(L_24);
+		int32_t L_25;
+		L_25 = PhotonView_get_ViewID_m69795CA0AB8AB13740BEDAD899BED88745F4C8A5(L_24, NULL);
+		int32_t L_26 = L_25;
+		RuntimeObject* L_27 = Box(il2cpp_defaults.int32_class, &L_26);
+		NullCheck(L_23);
+		Recorder_set_UserData_m1C4EEB773903B76FAA6A48AD20B670189237CDE0(L_23, L_27, NULL);
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:129>
+		PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* L_28 = __this->___punVoiceClient;
+		Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* L_29 = V_0;
+		NullCheck(L_28);
+		bool L_30;
+		L_30 = VoiceConnection_AddRecorder_mB900C30435DC2504DD5B8D1AC09EFF869026FC34(L_28, L_29, NULL);
+	}
+
+IL_00bb:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:131>
+		Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* L_31 = V_0;
+		PhotonVoiceView_set_RecorderInUse_m5AB337A396F56EED36C91A6E3346BFD8F5207284_inline(__this, L_31, NULL);
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:132>
+		return;
+	}
+}
+// Method Definition Index: 92913
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonVoiceView_OnDestroy_m6AA078C308FD09A08F6FED70FF0249C169336307 (PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:136>
+		PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* L_0 = __this->___punVoiceClient;
+		Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* L_1;
+		L_1 = PhotonVoiceView_get_RecorderInUse_m81ED4D96A4DD34A4890843E7C485ABA2707B3A6A_inline(__this, NULL);
+		NullCheck(L_0);
+		VoiceConnection_RemoveRecorder_m12180A6A74203EF2997F2011FD15CD2E59A83E97(L_0, L_1, NULL);
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:137>
+		return;
+	}
+}
+// Method Definition Index: 92914
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonVoiceView_SetupSpeaker_m689EFE250AF050102CC9D2A28EDF14026A3D3E64 (PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponentsInChildren_TisSpeaker_tBD124E6AEFF169667A9441881B3A98F122AE4ADE_m62F935FB313C574220B837413E1E706B459EE5D6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral14727C2772E7388F0F563659C83865E67B93D390);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6ABBF4466BE09D0080DEBDE2BAB8E36F342F072B);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9BF9C9C23F7100943694DB45B8871B0A811B35C8);
+		s_Il2CppMethodInitialized = true;
+	}
+	Speaker_tBD124E6AEFF169667A9441881B3A98F122AE4ADE* V_0 = NULL;
+	SpeakerU5BU5D_t219347C6659D7D19D460CE8790C5F285F35C1589* V_1 = NULL;
+	bool V_2 = false;
+	bool V_3 = false;
+	bool V_4 = false;
+	bool V_5 = false;
+	int32_t G_B7_0 = 0;
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:141>
+		V_0 = (Speaker_tBD124E6AEFF169667A9441881B3A98F122AE4ADE*)NULL;
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:143>
+		SpeakerU5BU5D_t219347C6659D7D19D460CE8790C5F285F35C1589* L_0;
+		L_0 = Component_GetComponentsInChildren_TisSpeaker_tBD124E6AEFF169667A9441881B3A98F122AE4ADE_m62F935FB313C574220B837413E1E706B459EE5D6(__this, (bool)1, Component_GetComponentsInChildren_TisSpeaker_tBD124E6AEFF169667A9441881B3A98F122AE4ADE_m62F935FB313C574220B837413E1E706B459EE5D6_RuntimeMethod_var);
+		V_1 = L_0;
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:144>
+		SpeakerU5BU5D_t219347C6659D7D19D460CE8790C5F285F35C1589* L_1 = V_1;
+		NullCheck(L_1);
+		V_2 = (bool)((!(((uint32_t)(((RuntimeArray*)L_1)->max_length)) <= ((uint32_t)0)))? 1 : 0);
+		bool L_2 = V_2;
+		if (!L_2)
+		{
+			goto IL_003d;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:146>
+		SpeakerU5BU5D_t219347C6659D7D19D460CE8790C5F285F35C1589* L_3 = V_1;
+		NullCheck(L_3);
+		int32_t L_4 = 0;
+		Speaker_tBD124E6AEFF169667A9441881B3A98F122AE4ADE* L_5 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		V_0 = L_5;
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:147>
+		SpeakerU5BU5D_t219347C6659D7D19D460CE8790C5F285F35C1589* L_6 = V_1;
+		NullCheck(L_6);
+		V_3 = (bool)((((int32_t)((int32_t)(((RuntimeArray*)L_6)->max_length))) > ((int32_t)1))? 1 : 0);
+		bool L_7 = V_3;
+		if (!L_7)
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:149>
+		RuntimeObject* L_8;
+		L_8 = VoiceComponent_get_Logger_mC64FBDB8EB5AF8DA71142ECE8B6963BAC484FC40(__this, NULL);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_9;
+		L_9 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_8);
+		InterfaceActionInvoker3< int32_t, String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(1, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_8, 2, _stringLiteral14727C2772E7388F0F563659C83865E67B93D390, L_9);
+	}
+
+IL_003c:
+	{
+	}
+
+IL_003d:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:153>
+		Speaker_tBD124E6AEFF169667A9441881B3A98F122AE4ADE* L_10 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_11;
+		L_11 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, L_10, NULL);
+		if (!L_11)
+		{
+			goto IL_0059;
+		}
+	}
+	{
+		PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* L_12 = __this->___punVoiceClient;
+		NullCheck(L_12);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13;
+		L_13 = VoiceConnection_get_SpeakerPrefab_m826BAD6BF3DBF46103C4E21FFB9A164D9BBCF997_inline(L_12, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_14;
+		L_14 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, L_13, NULL);
+		G_B7_0 = ((int32_t)(L_14));
+		goto IL_005a;
+	}
+
+IL_0059:
+	{
+		G_B7_0 = 0;
+	}
+
+IL_005a:
+	{
+		V_4 = (bool)G_B7_0;
+		bool L_15 = V_4;
+		if (!L_15)
+		{
+			goto IL_0075;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:155>
+		PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* L_16 = __this->___punVoiceClient;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17;
+		L_17 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		NullCheck(L_16);
+		Speaker_tBD124E6AEFF169667A9441881B3A98F122AE4ADE* L_18;
+		L_18 = VoiceConnection_InstantiateSpeakerPrefab_mDD60AB3AD1E77FD893A7FB8FD131E099CDAAB8A1(L_16, L_17, (bool)0, NULL);
+		V_0 = L_18;
+	}
+
+IL_0075:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:158>
+		Speaker_tBD124E6AEFF169667A9441881B3A98F122AE4ADE* L_19 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_20;
+		L_20 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, L_19, NULL);
+		V_5 = L_20;
+		bool L_21 = V_5;
+		if (!L_21)
+		{
+			goto IL_009d;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:160>
+		RuntimeObject* L_22;
+		L_22 = VoiceComponent_get_Logger_mC64FBDB8EB5AF8DA71142ECE8B6963BAC484FC40(__this, NULL);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_23;
+		L_23 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_22);
+		InterfaceActionInvoker3< int32_t, String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(1, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_22, 1, _stringLiteral6ABBF4466BE09D0080DEBDE2BAB8E36F342F072B, L_23);
+		goto IL_00b6;
+	}
+
+IL_009d:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:164>
+		RuntimeObject* L_24;
+		L_24 = VoiceComponent_get_Logger_mC64FBDB8EB5AF8DA71142ECE8B6963BAC484FC40(__this, NULL);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_25;
+		L_25 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_24);
+		InterfaceActionInvoker3< int32_t, String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(1, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_24, 3, _stringLiteral9BF9C9C23F7100943694DB45B8871B0A811B35C8, L_25);
+	}
+
+IL_00b6:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:166>
+		Speaker_tBD124E6AEFF169667A9441881B3A98F122AE4ADE* L_26 = V_0;
+		PhotonVoiceView_set_SpeakerInUse_mB96442AF8DEDD8481ACF2E4F0E0E54F560017B38_inline(__this, L_26, NULL);
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:167>
+		return;
+	}
+}
+// Method Definition Index: 92915
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonVoiceView__ctor_mBEDD2B31B5CA647939A68FC8BF1C221E47DF2EFC (PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* __this, const RuntimeMethod* method) 
+{
+	{
+		VoiceComponent__ctor_mB6C412309DC148E0BC5729DEE8FAE7DDFBA5AC58(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 92916
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PunVoiceClient_get_LeaderInRoom_mC77D6A57044F8C6F67CD535D3B981C371A7A4D5E (PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:38>
+		il2cpp_codegen_runtime_class_init_inline(PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		bool L_0;
+		L_0 = PhotonNetwork_get_InRoom_mFBE0C1A516C34FBAD9923933C73E07080FDA199D(NULL);
+		return L_0;
+	}
+}
+// Method Definition Index: 92917
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PunVoiceClient_get_LeaderOfflineMode_m359CF45F42FD5DEEFE21DC092271079E240A4631 (PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:39>
+		il2cpp_codegen_runtime_class_init_inline(PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		bool L_0;
+		L_0 = PhotonNetwork_get_OfflineMode_m57596042EE764187C75DEAC48E6F420799C192C2(NULL);
+		return L_0;
+	}
+}
+// Method Definition Index: 92918
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* PunVoiceClient_get_Instance_mFF6218976A4107045A96D145BC6C5249B1946D8A (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_AddComponent_TisPunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1_m8E34F6F5401D5E1DC72D08DF76466DBD2EC993BA_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_FindObjectsByType_TisPunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1_m11BD56675801E50F778B65238FBFBA0455350544_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral179D9FE8817F214B3074543C7798DACDA20D79B7);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4A6311C62451843E33262D7C8190CB31A3FDF66A);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4EAA25CDEC82B11766592502AB76F8FE0EFBF3E4);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral849994D0F83DC8C476CF3A89C36B232187AE95A3);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral89D07FA9289A89F82E6B227F7EDD2C8EF9F9D210);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	PunVoiceClientU5BU5D_tA9E595CE512FF5D14568F8D20D4D2D0424190234* V_1 = NULL;
+	bool V_2 = false;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_3 = NULL;
+	bool V_4 = false;
+	bool V_5 = false;
+	PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* V_6 = NULL;
+	int32_t G_B4_0 = 0;
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:61>
+		PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* L_0 = ((PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1_StaticFields*)il2cpp_codegen_static_fields_for(PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1_il2cpp_TypeInfo_var))->___instance;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_0 = L_1;
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_00ec;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:64>
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		PunVoiceClientU5BU5D_tA9E595CE512FF5D14568F8D20D4D2D0424190234* L_3;
+		L_3 = Object_FindObjectsByType_TisPunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1_m11BD56675801E50F778B65238FBFBA0455350544(1, Object_FindObjectsByType_TisPunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1_m11BD56675801E50F778B65238FBFBA0455350544_RuntimeMethod_var);
+		V_1 = L_3;
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:68>
+		PunVoiceClientU5BU5D_tA9E595CE512FF5D14568F8D20D4D2D0424190234* L_4 = V_1;
+		if (!L_4)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		PunVoiceClientU5BU5D_tA9E595CE512FF5D14568F8D20D4D2D0424190234* L_5 = V_1;
+		NullCheck(L_5);
+		G_B4_0 = ((((int32_t)((int32_t)(((RuntimeArray*)L_5)->max_length))) < ((int32_t)1))? 1 : 0);
+		goto IL_0027;
+	}
+
+IL_0026:
+	{
+		G_B4_0 = 1;
+	}
+
+IL_0027:
+	{
+		V_2 = (bool)G_B4_0;
+		bool L_6 = V_2;
+		if (!L_6)
+		{
+			goto IL_0067;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:70>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
+		GameObject__ctor_m7D0340DE160786E6EFA8DABD39EC3B694DA30AAD(L_7, NULL);
+		V_3 = L_7;
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:71>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = V_3;
+		NullCheck(L_8);
+		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_8, _stringLiteral4EAA25CDEC82B11766592502AB76F8FE0EFBF3E4, NULL);
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:72>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = V_3;
+		NullCheck(L_9);
+		PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* L_10;
+		L_10 = GameObject_AddComponent_TisPunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1_m8E34F6F5401D5E1DC72D08DF76466DBD2EC993BA(L_9, GameObject_AddComponent_TisPunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1_m8E34F6F5401D5E1DC72D08DF76466DBD2EC993BA_RuntimeMethod_var);
+		((PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1_StaticFields*)il2cpp_codegen_static_fields_for(PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1_il2cpp_TypeInfo_var))->___instance = L_10;
+		Il2CppCodeGenWriteBarrier((void**)(&((PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1_StaticFields*)il2cpp_codegen_static_fields_for(PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1_il2cpp_TypeInfo_var))->___instance), (void*)L_10);
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:73>
+		PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* L_11 = ((PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1_StaticFields*)il2cpp_codegen_static_fields_for(PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1_il2cpp_TypeInfo_var))->___instance;
+		NullCheck(L_11);
+		RuntimeObject* L_12;
+		L_12 = VoiceConnection_get_Logger_m7446F33A34958679EB2AD1DFDC07148CA79F29A8(L_11, NULL);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_13;
+		L_13 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_12);
+		InterfaceActionInvoker3< int32_t, String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(1, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_12, 1, _stringLiteral179D9FE8817F214B3074543C7798DACDA20D79B7, L_13);
+		goto IL_00d0;
+	}
+
+IL_0067:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:75>
+		PunVoiceClientU5BU5D_tA9E595CE512FF5D14568F8D20D4D2D0424190234* L_14 = V_1;
+		NullCheck(L_14);
+		V_4 = (bool)((((int32_t)((((int32_t)((int32_t)(((RuntimeArray*)L_14)->max_length))) < ((int32_t)1))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_15 = V_4;
+		if (!L_15)
+		{
+			goto IL_00d0;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:77>
+		PunVoiceClientU5BU5D_tA9E595CE512FF5D14568F8D20D4D2D0424190234* L_16 = V_1;
+		NullCheck(L_16);
+		int32_t L_17 = 0;
+		PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* L_18 = (L_16)->GetAt(static_cast<il2cpp_array_size_t>(L_17));
+		((PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1_StaticFields*)il2cpp_codegen_static_fields_for(PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1_il2cpp_TypeInfo_var))->___instance = L_18;
+		Il2CppCodeGenWriteBarrier((void**)(&((PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1_StaticFields*)il2cpp_codegen_static_fields_for(PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1_il2cpp_TypeInfo_var))->___instance), (void*)L_18);
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:78>
+		PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* L_19 = ((PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1_StaticFields*)il2cpp_codegen_static_fields_for(PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1_il2cpp_TypeInfo_var))->___instance;
+		NullCheck(L_19);
+		RuntimeObject* L_20;
+		L_20 = VoiceConnection_get_Logger_m7446F33A34958679EB2AD1DFDC07148CA79F29A8(L_19, NULL);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_21;
+		L_21 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_20);
+		InterfaceActionInvoker3< int32_t, String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(1, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_20, 3, _stringLiteral849994D0F83DC8C476CF3A89C36B232187AE95A3, L_21);
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:79>
+		PunVoiceClientU5BU5D_tA9E595CE512FF5D14568F8D20D4D2D0424190234* L_22 = V_1;
+		NullCheck(L_22);
+		V_5 = (bool)((((int32_t)((int32_t)(((RuntimeArray*)L_22)->max_length))) > ((int32_t)1))? 1 : 0);
+		bool L_23 = V_5;
+		if (!L_23)
+		{
+			goto IL_00cf;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:81>
+		PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* L_24 = ((PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1_StaticFields*)il2cpp_codegen_static_fields_for(PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1_il2cpp_TypeInfo_var))->___instance;
+		NullCheck(L_24);
+		RuntimeObject* L_25;
+		L_25 = VoiceConnection_get_Logger_m7446F33A34958679EB2AD1DFDC07148CA79F29A8(L_24, NULL);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_26 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_27 = L_26;
+		PunVoiceClientU5BU5D_tA9E595CE512FF5D14568F8D20D4D2D0424190234* L_28 = V_1;
+		NullCheck(L_28);
+		int32_t L_29 = ((int32_t)(((RuntimeArray*)L_28)->max_length));
+		RuntimeObject* L_30 = Box(il2cpp_defaults.int32_class, &L_29);
+		NullCheck(L_27);
+		ArrayElementTypeCheck (L_27, L_30);
+		(L_27)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_30);
+		NullCheck(L_25);
+		InterfaceActionInvoker3< int32_t, String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(1, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_25, 1, _stringLiteral4A6311C62451843E33262D7C8190CB31A3FDF66A, L_27);
+	}
+
+IL_00cf:
+	{
+	}
+
+IL_00d0:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:84>
+		PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* L_31 = ((PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1_StaticFields*)il2cpp_codegen_static_fields_for(PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1_il2cpp_TypeInfo_var))->___instance;
+		NullCheck(L_31);
+		RuntimeObject* L_32;
+		L_32 = VoiceConnection_get_Logger_m7446F33A34958679EB2AD1DFDC07148CA79F29A8(L_31, NULL);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_33;
+		L_33 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_32);
+		InterfaceActionInvoker3< int32_t, String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(1, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_32, 3, _stringLiteral89D07FA9289A89F82E6B227F7EDD2C8EF9F9D210, L_33);
+	}
+
+IL_00ec:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:86>
+		PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* L_34 = ((PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1_StaticFields*)il2cpp_codegen_static_fields_for(PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1_il2cpp_TypeInfo_var))->___instance;
+		V_6 = L_34;
+		goto IL_00f5;
+	}
+
+IL_00f5:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:87>
+		PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* L_35 = V_6;
+		return L_35;
+	}
+}
+// Method Definition Index: 92919
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PunVoiceClient_get_UsePunAppSettings_m12F6E36C38A129B83F417F0FAE30F1E0230E9916 (PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* __this, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:97>
+		bool L_0 = __this->___usePunAppSettings;
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:98>
+		bool L_1 = V_0;
+		return L_1;
+	}
+}
+// Method Definition Index: 92920
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PunVoiceClient_set_UsePunAppSettings_mBE253879C55B56424340AC5AC0CE873D0143500B (PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* __this, bool ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:101>
+		bool L_0 = ___0_value;
+		__this->___usePunAppSettings = L_0;
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:102>
+		return;
+	}
+}
+// Method Definition Index: 92921
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PunVoiceClient_get_UsePunAuthValues_m64D747A136589F274AC4CC9EB70192843760D51F (PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* __this, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:114>
+		bool L_0 = __this->___usePunAuthValues;
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:115>
+		bool L_1 = V_0;
+		return L_1;
+	}
+}
+// Method Definition Index: 92922
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PunVoiceClient_set_UsePunAuthValues_mB679E85BA6406739BFA051BDECEA509A7B418F74 (PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* __this, bool ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:118>
+		bool L_0 = ___0_value;
+		__this->___usePunAuthValues = L_0;
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:119>
+		return;
+	}
+}
+// Method Definition Index: 92923
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PunVoiceClient_Start_m6665ED377B962819A27C2773377E7F989B9B3B0E (PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_2_t3EC2669A751FDF2FFFA36356EC41244433164490_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PunVoiceClient_OnPunStateChange_m4E459E11D8955A8D38BDDD82EBC3BF4777E9EDB5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral493FE7F94FDC85045F0BE8971C31BED9290C8526);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	bool V_2 = false;
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:126>
+		il2cpp_codegen_runtime_class_init_inline(PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4* L_0 = ((PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_StaticFields*)il2cpp_codegen_static_fields_for(PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var))->___NetworkingClient;
+		Action_2_t3EC2669A751FDF2FFFA36356EC41244433164490* L_1 = (Action_2_t3EC2669A751FDF2FFFA36356EC41244433164490*)il2cpp_codegen_object_new(Action_2_t3EC2669A751FDF2FFFA36356EC41244433164490_il2cpp_TypeInfo_var);
+		Action_2__ctor_m914229254E2DD1066D0E81418D2410B78F40DEBB(L_1, __this, (intptr_t)((void*)PunVoiceClient_OnPunStateChange_m4E459E11D8955A8D38BDDD82EBC3BF4777E9EDB5_RuntimeMethod_var), NULL);
+		NullCheck(L_0);
+		LoadBalancingClient_add_StateChanged_mA6384FF2BBFAD74989F27734C0A2251F6F470EB9(L_0, L_1, NULL);
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:127>
+		VoiceFollowClient_Start_m4D5FB0F09E187A78CD44BA27DF5181C53B7E0BAC(__this, NULL);
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:128>
+		PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* L_2;
+		L_2 = PunVoiceClient_get_Instance_mFF6218976A4107045A96D145BC6C5249B1946D8A(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_2, __this, NULL);
+		V_0 = L_3;
+		bool L_4 = V_0;
+		if (!L_4)
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:130>
+		bool L_5;
+		L_5 = VoiceConnection_get_UsePrimaryRecorder_m50587F8EEAE8AA3D379D8738E72F9128EE2B41C5_inline(__this, NULL);
+		V_1 = L_5;
+		bool L_6 = V_1;
+		if (!L_6)
+		{
+			goto IL_0075;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:132>
+		Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* L_7;
+		L_7 = VoiceConnection_get_PrimaryRecorder_m1DA6ED8BC914F3EAFBDC46288F5F0C70B904E5C7_inline(__this, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_8;
+		L_8 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_7, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_2 = L_8;
+		bool L_9 = V_2;
+		if (!L_9)
+		{
+			goto IL_005b;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:134>
+		Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* L_10;
+		L_10 = VoiceConnection_get_PrimaryRecorder_m1DA6ED8BC914F3EAFBDC46288F5F0C70B904E5C7_inline(__this, NULL);
+		bool L_11;
+		L_11 = VoiceConnection_AddRecorder_mB900C30435DC2504DD5B8D1AC09EFF869026FC34(__this, L_10, NULL);
+		goto IL_0074;
+	}
+
+IL_005b:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:138>
+		RuntimeObject* L_12;
+		L_12 = VoiceConnection_get_Logger_m7446F33A34958679EB2AD1DFDC07148CA79F29A8(__this, NULL);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_13;
+		L_13 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_12);
+		InterfaceActionInvoker3< int32_t, String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(1, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_12, 1, _stringLiteral493FE7F94FDC85045F0BE8971C31BED9290C8526, L_13);
+	}
+
+IL_0074:
+	{
+	}
+
+IL_0075:
+	{
+	}
+
+IL_0076:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:142>
+		return;
+	}
+}
+// Method Definition Index: 92924
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PunVoiceClient_OnDestroy_mE3F181687A0DFDC2DE4BF4D09689DDA217A9E765 (PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_2_t3EC2669A751FDF2FFFA36356EC41244433164490_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PunVoiceClient_OnPunStateChange_m4E459E11D8955A8D38BDDD82EBC3BF4777E9EDB5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7B5C4D03399EEA9B7DB3B2A1F30F170F7ED0E222);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:146>
+		il2cpp_codegen_runtime_class_init_inline(PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4* L_0 = ((PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_StaticFields*)il2cpp_codegen_static_fields_for(PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var))->___NetworkingClient;
+		Action_2_t3EC2669A751FDF2FFFA36356EC41244433164490* L_1 = (Action_2_t3EC2669A751FDF2FFFA36356EC41244433164490*)il2cpp_codegen_object_new(Action_2_t3EC2669A751FDF2FFFA36356EC41244433164490_il2cpp_TypeInfo_var);
+		Action_2__ctor_m914229254E2DD1066D0E81418D2410B78F40DEBB(L_1, __this, (intptr_t)((void*)PunVoiceClient_OnPunStateChange_m4E459E11D8955A8D38BDDD82EBC3BF4777E9EDB5_RuntimeMethod_var), NULL);
+		NullCheck(L_0);
+		LoadBalancingClient_remove_StateChanged_m05D0CADDC74CE72BDD2CC9BBCBA8257D9CACD85B(L_0, L_1, NULL);
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:147>
+		VoiceFollowClient_OnDestroy_m8A2F8536334503E0381C2A1694B468A2EC623F17(__this, NULL);
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:148>
+		PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* L_2 = ((PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1_StaticFields*)il2cpp_codegen_static_fields_for(PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1_il2cpp_TypeInfo_var))->___instance;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_2, __this, NULL);
+		V_0 = L_3;
+		bool L_4 = V_0;
+		if (!L_4)
+		{
+			goto IL_0051;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:150>
+		PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* L_5 = ((PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1_StaticFields*)il2cpp_codegen_static_fields_for(PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1_il2cpp_TypeInfo_var))->___instance;
+		NullCheck(L_5);
+		RuntimeObject* L_6;
+		L_6 = VoiceConnection_get_Logger_m7446F33A34958679EB2AD1DFDC07148CA79F29A8(L_5, NULL);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_7;
+		L_7 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_6);
+		InterfaceActionInvoker3< int32_t, String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(1, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_6, 3, _stringLiteral7B5C4D03399EEA9B7DB3B2A1F30F170F7ED0E222, L_7);
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:151>
+		((PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1_StaticFields*)il2cpp_codegen_static_fields_for(PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1_il2cpp_TypeInfo_var))->___instance = (PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&((PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1_StaticFields*)il2cpp_codegen_static_fields_for(PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1_il2cpp_TypeInfo_var))->___instance), (void*)(PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1*)NULL);
+	}
+
+IL_0051:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:153>
+		return;
+	}
+}
+// Method Definition Index: 92925
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Speaker_tBD124E6AEFF169667A9441881B3A98F122AE4ADE* PunVoiceClient_InstantiateSpeakerForRemoteVoice_mB4B3857522D7C4AD139E3957FC8E5AA53DEBFECB (PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* __this, int32_t ___0_playerId, uint8_t ___1_voiceId, RuntimeObject* ___2_userData, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisPhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9_mC1E04F504797B33976B8C685BAD42A0AC1D478BB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral491DFF307155D060DE2930B3A4DACC763B9B9992);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5BEFD8CC60A79699B5BB00E37BAC5B62D371E174);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral631CCB3B38A24A985A55AD1E70ABA1395491A996);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6458CA1942CDE521844E158F0EC0CC46DFEC227B);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7B99C5BB86AD28992FE3EA8391C088EA95489451);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral96F687665AEA502398F1370CEE347C90A340B677);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	PhotonView_t43F3D22FF3D00F7824E82D741D70F9CB55642E6B* V_1 = NULL;
+	PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* V_2 = NULL;
+	bool V_3 = false;
+	Speaker_tBD124E6AEFF169667A9441881B3A98F122AE4ADE* V_4 = NULL;
+	bool V_5 = false;
+	bool V_6 = false;
+	bool V_7 = false;
+	int32_t G_B5_0 = 0;
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* G_B5_1 = NULL;
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* G_B5_2 = NULL;
+	String_t* G_B5_3 = NULL;
+	int32_t G_B5_4 = 0;
+	RuntimeObject* G_B5_5 = NULL;
+	int32_t G_B4_0 = 0;
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* G_B4_1 = NULL;
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* G_B4_2 = NULL;
+	String_t* G_B4_3 = NULL;
+	int32_t G_B4_4 = 0;
+	RuntimeObject* G_B4_5 = NULL;
+	String_t* G_B6_0 = NULL;
+	int32_t G_B6_1 = 0;
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* G_B6_2 = NULL;
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* G_B6_3 = NULL;
+	String_t* G_B6_4 = NULL;
+	int32_t G_B6_5 = 0;
+	RuntimeObject* G_B6_6 = NULL;
+	int32_t G_B10_0 = 0;
+	int32_t G_B15_0 = 0;
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:157>
+		RuntimeObject* L_0 = ___2_userData;
+		V_3 = (bool)((((RuntimeObject*)(RuntimeObject*)L_0) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		bool L_1 = V_3;
+		if (!L_1)
+		{
+			goto IL_0048;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:159>
+		RuntimeObject* L_2;
+		L_2 = VoiceConnection_get_Logger_m7446F33A34958679EB2AD1DFDC07148CA79F29A8(__this, NULL);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)2);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = L_3;
+		int32_t L_5 = ___0_playerId;
+		int32_t L_6 = L_5;
+		RuntimeObject* L_7 = Box(il2cpp_defaults.int32_class, &L_6);
+		NullCheck(L_4);
+		ArrayElementTypeCheck (L_4, L_7);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_7);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_8 = L_4;
+		uint8_t L_9 = ___1_voiceId;
+		uint8_t L_10 = L_9;
+		RuntimeObject* L_11 = Box(il2cpp_defaults.byte_class, &L_10);
+		NullCheck(L_8);
+		ArrayElementTypeCheck (L_8, L_11);
+		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_11);
+		NullCheck(L_2);
+		InterfaceActionInvoker3< int32_t, String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(1, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_2, 3, _stringLiteral491DFF307155D060DE2930B3A4DACC763B9B9992, L_8);
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:160>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12;
+		L_12 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		Speaker_tBD124E6AEFF169667A9441881B3A98F122AE4ADE* L_13;
+		L_13 = VoiceConnection_InstantiateSpeakerPrefab_mDD60AB3AD1E77FD893A7FB8FD131E099CDAAB8A1(__this, L_12, (bool)1, NULL);
+		V_4 = L_13;
+		goto IL_018e;
+	}
+
+IL_0048:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:163>
+		RuntimeObject* L_14 = ___2_userData;
+		V_5 = (bool)((((int32_t)((!(((RuntimeObject*)(RuntimeObject*)((RuntimeObject*)IsInstSealed((RuntimeObject*)L_14, il2cpp_defaults.int32_class))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_15 = V_5;
+		if (!L_15)
+		{
+			goto IL_00a0;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:165>
+		RuntimeObject* L_16;
+		L_16 = VoiceConnection_get_Logger_m7446F33A34958679EB2AD1DFDC07148CA79F29A8(__this, NULL);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_17 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)3);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_18 = L_17;
+		RuntimeObject* L_19 = ___2_userData;
+		if (!L_19)
+		{
+			G_B5_0 = 0;
+			G_B5_1 = L_18;
+			G_B5_2 = L_18;
+			G_B5_3 = _stringLiteral96F687665AEA502398F1370CEE347C90A340B677;
+			G_B5_4 = 2;
+			G_B5_5 = L_16;
+			goto IL_007a;
+		}
+		G_B4_0 = 0;
+		G_B4_1 = L_18;
+		G_B4_2 = L_18;
+		G_B4_3 = _stringLiteral96F687665AEA502398F1370CEE347C90A340B677;
+		G_B4_4 = 2;
+		G_B4_5 = L_16;
+	}
+	{
+		RuntimeObject* L_20 = ___2_userData;
+		NullCheck(L_20);
+		String_t* L_21;
+		L_21 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_20);
+		G_B6_0 = L_21;
+		G_B6_1 = G_B4_0;
+		G_B6_2 = G_B4_1;
+		G_B6_3 = G_B4_2;
+		G_B6_4 = G_B4_3;
+		G_B6_5 = G_B4_4;
+		G_B6_6 = G_B4_5;
+		goto IL_007f;
+	}
+
+IL_007a:
+	{
+		G_B6_0 = _stringLiteral5BEFD8CC60A79699B5BB00E37BAC5B62D371E174;
+		G_B6_1 = G_B5_0;
+		G_B6_2 = G_B5_1;
+		G_B6_3 = G_B5_2;
+		G_B6_4 = G_B5_3;
+		G_B6_5 = G_B5_4;
+		G_B6_6 = G_B5_5;
+	}
+
+IL_007f:
+	{
+		NullCheck(G_B6_2);
+		ArrayElementTypeCheck (G_B6_2, G_B6_0);
+		(G_B6_2)->SetAt(static_cast<il2cpp_array_size_t>(G_B6_1), (RuntimeObject*)G_B6_0);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_22 = G_B6_3;
+		int32_t L_23 = ___0_playerId;
+		int32_t L_24 = L_23;
+		RuntimeObject* L_25 = Box(il2cpp_defaults.int32_class, &L_24);
+		NullCheck(L_22);
+		ArrayElementTypeCheck (L_22, L_25);
+		(L_22)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_25);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_26 = L_22;
+		uint8_t L_27 = ___1_voiceId;
+		uint8_t L_28 = L_27;
+		RuntimeObject* L_29 = Box(il2cpp_defaults.byte_class, &L_28);
+		NullCheck(L_26);
+		ArrayElementTypeCheck (L_26, L_29);
+		(L_26)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_29);
+		NullCheck(G_B6_6);
+		InterfaceActionInvoker3< int32_t, String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(1, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, G_B6_6, G_B6_5, G_B6_4, L_26);
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:166>
+		V_4 = (Speaker_tBD124E6AEFF169667A9441881B3A98F122AE4ADE*)NULL;
+		goto IL_018e;
+	}
+
+IL_00a0:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:169>
+		RuntimeObject* L_30 = ___2_userData;
+		V_0 = ((*(int32_t*)UnBox(L_30, il2cpp_defaults.int32_class)));
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:170>
+		int32_t L_31 = V_0;
+		PhotonView_t43F3D22FF3D00F7824E82D741D70F9CB55642E6B* L_32;
+		L_32 = PhotonView_Find_m0882E2232D4EAB45F754B4FAFEE5E6EA54DF7707(L_31, NULL);
+		V_1 = L_32;
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:171>
+		PhotonView_t43F3D22FF3D00F7824E82D741D70F9CB55642E6B* L_33 = V_1;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_34;
+		L_34 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, L_33, NULL);
+		if (L_34)
+		{
+			goto IL_00c2;
+		}
+	}
+	{
+		PhotonView_t43F3D22FF3D00F7824E82D741D70F9CB55642E6B* L_35 = V_1;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_36;
+		L_36 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_35, NULL);
+		G_B10_0 = ((((int32_t)L_36) == ((int32_t)0))? 1 : 0);
+		goto IL_00c3;
+	}
+
+IL_00c2:
+	{
+		G_B10_0 = 1;
+	}
+
+IL_00c3:
+	{
+		V_6 = (bool)G_B10_0;
+		bool L_37 = V_6;
+		if (!L_37)
+		{
+			goto IL_0100;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:173>
+		RuntimeObject* L_38;
+		L_38 = VoiceConnection_get_Logger_m7446F33A34958679EB2AD1DFDC07148CA79F29A8(__this, NULL);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_39 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)3);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_40 = L_39;
+		RuntimeObject* L_41 = ___2_userData;
+		NullCheck(L_40);
+		ArrayElementTypeCheck (L_40, L_41);
+		(L_40)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_41);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_42 = L_40;
+		int32_t L_43 = ___0_playerId;
+		int32_t L_44 = L_43;
+		RuntimeObject* L_45 = Box(il2cpp_defaults.int32_class, &L_44);
+		NullCheck(L_42);
+		ArrayElementTypeCheck (L_42, L_45);
+		(L_42)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_45);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_46 = L_42;
+		uint8_t L_47 = ___1_voiceId;
+		uint8_t L_48 = L_47;
+		RuntimeObject* L_49 = Box(il2cpp_defaults.byte_class, &L_48);
+		NullCheck(L_46);
+		ArrayElementTypeCheck (L_46, L_49);
+		(L_46)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_49);
+		NullCheck(L_38);
+		InterfaceActionInvoker3< int32_t, String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(1, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_38, 2, _stringLiteral631CCB3B38A24A985A55AD1E70ABA1395491A996, L_46);
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:174>
+		V_4 = (Speaker_tBD124E6AEFF169667A9441881B3A98F122AE4ADE*)NULL;
+		goto IL_018e;
+	}
+
+IL_0100:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:177>
+		PhotonView_t43F3D22FF3D00F7824E82D741D70F9CB55642E6B* L_50 = V_1;
+		NullCheck(L_50);
+		PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* L_51;
+		L_51 = Component_GetComponent_TisPhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9_mC1E04F504797B33976B8C685BAD42A0AC1D478BB(L_50, Component_GetComponent_TisPhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9_mC1E04F504797B33976B8C685BAD42A0AC1D478BB_RuntimeMethod_var);
+		V_2 = L_51;
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:178>
+		PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* L_52 = V_2;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_53;
+		L_53 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, L_52, NULL);
+		if (L_53)
+		{
+			goto IL_011b;
+		}
+	}
+	{
+		PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* L_54 = V_2;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_55;
+		L_55 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_54, NULL);
+		G_B15_0 = ((((int32_t)L_55) == ((int32_t)0))? 1 : 0);
+		goto IL_011c;
+	}
+
+IL_011b:
+	{
+		G_B15_0 = 1;
+	}
+
+IL_011c:
+	{
+		V_7 = (bool)G_B15_0;
+		bool L_56 = V_7;
+		if (!L_56)
+		{
+			goto IL_0156;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:180>
+		RuntimeObject* L_57;
+		L_57 = VoiceConnection_get_Logger_m7446F33A34958679EB2AD1DFDC07148CA79F29A8(__this, NULL);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_58 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)3);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_59 = L_58;
+		RuntimeObject* L_60 = ___2_userData;
+		NullCheck(L_59);
+		ArrayElementTypeCheck (L_59, L_60);
+		(L_59)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_60);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_61 = L_59;
+		int32_t L_62 = ___0_playerId;
+		int32_t L_63 = L_62;
+		RuntimeObject* L_64 = Box(il2cpp_defaults.int32_class, &L_63);
+		NullCheck(L_61);
+		ArrayElementTypeCheck (L_61, L_64);
+		(L_61)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_64);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_65 = L_61;
+		uint8_t L_66 = ___1_voiceId;
+		uint8_t L_67 = L_66;
+		RuntimeObject* L_68 = Box(il2cpp_defaults.byte_class, &L_67);
+		NullCheck(L_65);
+		ArrayElementTypeCheck (L_65, L_68);
+		(L_65)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_68);
+		NullCheck(L_57);
+		InterfaceActionInvoker3< int32_t, String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(1, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_57, 2, _stringLiteral7B99C5BB86AD28992FE3EA8391C088EA95489451, L_65);
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:181>
+		V_4 = (Speaker_tBD124E6AEFF169667A9441881B3A98F122AE4ADE*)NULL;
+		goto IL_018e;
+	}
+
+IL_0156:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:183>
+		RuntimeObject* L_69;
+		L_69 = VoiceConnection_get_Logger_m7446F33A34958679EB2AD1DFDC07148CA79F29A8(__this, NULL);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_70 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)3);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_71 = L_70;
+		RuntimeObject* L_72 = ___2_userData;
+		NullCheck(L_71);
+		ArrayElementTypeCheck (L_71, L_72);
+		(L_71)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_72);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_73 = L_71;
+		int32_t L_74 = ___0_playerId;
+		int32_t L_75 = L_74;
+		RuntimeObject* L_76 = Box(il2cpp_defaults.int32_class, &L_75);
+		NullCheck(L_73);
+		ArrayElementTypeCheck (L_73, L_76);
+		(L_73)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_76);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_77 = L_73;
+		uint8_t L_78 = ___1_voiceId;
+		uint8_t L_79 = L_78;
+		RuntimeObject* L_80 = Box(il2cpp_defaults.byte_class, &L_79);
+		NullCheck(L_77);
+		ArrayElementTypeCheck (L_77, L_80);
+		(L_77)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_80);
+		NullCheck(L_69);
+		InterfaceActionInvoker3< int32_t, String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(1, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_69, 3, _stringLiteral6458CA1942CDE521844E158F0EC0CC46DFEC227B, L_77);
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:184>
+		PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* L_81 = V_2;
+		NullCheck(L_81);
+		Speaker_tBD124E6AEFF169667A9441881B3A98F122AE4ADE* L_82;
+		L_82 = PhotonVoiceView_get_SpeakerInUse_m2B9E01349729560A84C0CFE8C039082CBCB9B0CF_inline(L_81, NULL);
+		V_4 = L_82;
+		goto IL_018e;
+	}
+
+IL_018e:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:185>
+		Speaker_tBD124E6AEFF169667A9441881B3A98F122AE4ADE* L_83 = V_4;
+		return L_83;
+	}
+}
+// Method Definition Index: 92926
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* PunVoiceClient_GetVoiceRoomName_m96484D40753A716F63CE3CCB155409923325E90D (PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD193818D7EE1F56481A87F5FE7594803C22FC12B);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	String_t* V_1 = NULL;
+	int32_t G_B4_0 = 0;
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:190>
+		il2cpp_codegen_runtime_class_init_inline(PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		bool L_0;
+		L_0 = PhotonNetwork_get_InRoom_mFBE0C1A516C34FBAD9923933C73E07080FDA199D(NULL);
+		if (!L_0)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		Room_t9CCA5C06B8CE2E5E1EE24AD17360F218C4E36373* L_1;
+		L_1 = PhotonNetwork_get_CurrentRoom_m72D3601299E109EED858E132DE1BD316226BA38D(NULL);
+		if (!L_1)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		Room_t9CCA5C06B8CE2E5E1EE24AD17360F218C4E36373* L_2;
+		L_2 = PhotonNetwork_get_CurrentRoom_m72D3601299E109EED858E132DE1BD316226BA38D(NULL);
+		NullCheck(L_2);
+		String_t* L_3;
+		L_3 = Room_get_Name_m8C466150335A007F72B11711AB64F9F62288D500(L_2, NULL);
+		bool L_4;
+		L_4 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_3, NULL);
+		G_B4_0 = ((((int32_t)L_4) == ((int32_t)0))? 1 : 0);
+		goto IL_0024;
+	}
+
+IL_0023:
+	{
+		G_B4_0 = 0;
+	}
+
+IL_0024:
+	{
+		V_0 = (bool)G_B4_0;
+		bool L_5 = V_0;
+		if (!L_5)
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:192>
+		il2cpp_codegen_runtime_class_init_inline(PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		Room_t9CCA5C06B8CE2E5E1EE24AD17360F218C4E36373* L_6;
+		L_6 = PhotonNetwork_get_CurrentRoom_m72D3601299E109EED858E132DE1BD316226BA38D(NULL);
+		NullCheck(L_6);
+		String_t* L_7;
+		L_7 = Room_get_Name_m8C466150335A007F72B11711AB64F9F62288D500(L_6, NULL);
+		String_t* L_8;
+		L_8 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_7, _stringLiteralD193818D7EE1F56481A87F5FE7594803C22FC12B, NULL);
+		V_1 = L_8;
+		goto IL_0044;
+	}
+
+IL_0040:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:194>
+		V_1 = (String_t*)NULL;
+		goto IL_0044;
+	}
+
+IL_0044:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:195>
+		String_t* L_9 = V_1;
+		return L_9;
+	}
+}
+// Method Definition Index: 92927
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PunVoiceClient_OnPunStateChange_m4E459E11D8955A8D38BDDD82EBC3BF4777E9EDB5 (PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* __this, int32_t ___0_s1, int32_t ___1_s2, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:199>
+		int32_t L_0 = ___1_s2;
+		VoiceFollowClient_LeaderStateChanged_mBA694E83554D0C0132C280AF135E906D77B8FC78(__this, L_0, NULL);
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:200>
+		return;
+	}
+}
+// Method Definition Index: 92928
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PunVoiceClient_ConnectVoice_mEFC9920338B9B739BDF441F6F407B2298CFFB079 (PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppSettings_tF847AF39732C3BF8BECBCCAC41D186A0B79123F7_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	AppSettings_tF847AF39732C3BF8BECBCCAC41D186A0B79123F7* V_0 = NULL;
+	bool V_1 = false;
+	bool V_2 = false;
+	bool V_3 = false;
+	bool V_4 = false;
+	bool V_5 = false;
+	bool V_6 = false;
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:205>
+		V_0 = (AppSettings_tF847AF39732C3BF8BECBCCAC41D186A0B79123F7*)NULL;
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:207>
+		bool L_0 = __this->___usePunAppSettings;
+		V_1 = L_0;
+		bool L_1 = V_1;
+		if (!L_1)
+		{
+			goto IL_006a;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:209>
+		AppSettings_tF847AF39732C3BF8BECBCCAC41D186A0B79123F7* L_2 = (AppSettings_tF847AF39732C3BF8BECBCCAC41D186A0B79123F7*)il2cpp_codegen_object_new(AppSettings_tF847AF39732C3BF8BECBCCAC41D186A0B79123F7_il2cpp_TypeInfo_var);
+		AppSettings__ctor_m0E9EF98D6C1FB02C989504407836FDA2B019AA43(L_2, NULL);
+		V_0 = L_2;
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:210>
+		il2cpp_codegen_runtime_class_init_inline(PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		ServerSettings_t41BE4338E7E76BFB4919D4039BAFC6799E242152* L_3;
+		L_3 = PhotonNetwork_get_PhotonServerSettings_mEB0FD5D91970368EE4D23AA12213DAD57B8D1097(NULL);
+		NullCheck(L_3);
+		AppSettings_tF847AF39732C3BF8BECBCCAC41D186A0B79123F7* L_4 = L_3->___AppSettings;
+		AppSettings_tF847AF39732C3BF8BECBCCAC41D186A0B79123F7* L_5 = V_0;
+		NullCheck(L_4);
+		AppSettings_tF847AF39732C3BF8BECBCCAC41D186A0B79123F7* L_6;
+		L_6 = AppSettings_CopyTo_mE304EF3079424281AC51411AB237969412FD6F93(L_4, L_5, NULL);
+		V_0 = L_6;
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:211>
+		String_t* L_7;
+		L_7 = PhotonNetwork_get_CloudRegion_mB5B2C20FAB0892E2CCBCEF249C2146497AECB16E(NULL);
+		bool L_8;
+		L_8 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_7, NULL);
+		V_2 = (bool)((((int32_t)L_8) == ((int32_t)0))? 1 : 0);
+		bool L_9 = V_2;
+		if (!L_9)
+		{
+			goto IL_0043;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:213>
+		AppSettings_tF847AF39732C3BF8BECBCCAC41D186A0B79123F7* L_10 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		String_t* L_11;
+		L_11 = PhotonNetwork_get_CloudRegion_mB5B2C20FAB0892E2CCBCEF249C2146497AECB16E(NULL);
+		NullCheck(L_10);
+		L_10->___FixedRegion = L_11;
+		Il2CppCodeGenWriteBarrier((void**)(&L_10->___FixedRegion), (void*)L_11);
+	}
+
+IL_0043:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:216>
+		LoadBalancingTransport_tCBC427B25D0F207FCC8E751172AE1402A5230C80* L_12;
+		L_12 = VoiceConnection_get_Client_mE6A4D18E641A8567EE490AE5A81ECC9468F8B30F(__this, NULL);
+		il2cpp_codegen_runtime_class_init_inline(PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		PhotonPortDefinition_t75A54992188E1DC3FF910A00927F213E7198590A L_13;
+		L_13 = PhotonNetwork_get_ServerPortOverrides_m60C22399610CA6B917E250C92483AA5113C2AA8F(NULL);
+		NullCheck(L_12);
+		((LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4*)L_12)->___ServerPortOverrides = L_13;
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:217>
+		LoadBalancingTransport_tCBC427B25D0F207FCC8E751172AE1402A5230C80* L_14;
+		L_14 = VoiceConnection_get_Client_mE6A4D18E641A8567EE490AE5A81ECC9468F8B30F(__this, NULL);
+		LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4* L_15 = ((PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_StaticFields*)il2cpp_codegen_static_fields_for(PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var))->___NetworkingClient;
+		NullCheck(L_15);
+		int32_t L_16;
+		L_16 = LoadBalancingClient_get_SerializationProtocol_m9A1630A2C16C42D3914CA6787453B4BCCB9AD756(L_15, NULL);
+		NullCheck(L_14);
+		LoadBalancingClient_set_SerializationProtocol_m1DF8CED4E6C037D95C5DB7B2562AA934057FDC12(L_14, L_16, NULL);
+	}
+
+IL_006a:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:221>
+		bool L_17;
+		L_17 = PunVoiceClient_get_UsePunAuthValues_m64D747A136589F274AC4CC9EB70192843760D51F(__this, NULL);
+		V_3 = L_17;
+		bool L_18 = V_3;
+		if (!L_18)
+		{
+			goto IL_00fb;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:223>
+		il2cpp_codegen_runtime_class_init_inline(PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7* L_19;
+		L_19 = PhotonNetwork_get_AuthValues_mF4E6173BA3C5E848ABF50755644C01CF6DB7D341(NULL);
+		V_4 = (bool)((!(((RuntimeObject*)(AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7*)L_19) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_20 = V_4;
+		if (!L_20)
+		{
+			goto IL_00d0;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:225>
+		LoadBalancingTransport_tCBC427B25D0F207FCC8E751172AE1402A5230C80* L_21;
+		L_21 = VoiceConnection_get_Client_mE6A4D18E641A8567EE490AE5A81ECC9468F8B30F(__this, NULL);
+		NullCheck(L_21);
+		AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7* L_22;
+		L_22 = LoadBalancingClient_get_AuthValues_m58A41749A2B67F2B76EDD8C8B28A32FAA60977AA_inline(L_21, NULL);
+		V_5 = (bool)((((RuntimeObject*)(AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7*)L_22) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		bool L_23 = V_5;
+		if (!L_23)
+		{
+			goto IL_00ae;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:227>
+		LoadBalancingTransport_tCBC427B25D0F207FCC8E751172AE1402A5230C80* L_24;
+		L_24 = VoiceConnection_get_Client_mE6A4D18E641A8567EE490AE5A81ECC9468F8B30F(__this, NULL);
+		AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7* L_25 = (AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7*)il2cpp_codegen_object_new(AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7_il2cpp_TypeInfo_var);
+		AuthenticationValues__ctor_mFA23E096E1262DF1C8167BD077DD17C7B1BE9D9D(L_25, NULL);
+		NullCheck(L_24);
+		LoadBalancingClient_set_AuthValues_mAFB66C3CFA04587CBA1A60711581B2BA6C6FD84C_inline(L_24, L_25, NULL);
+	}
+
+IL_00ae:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:229>
+		LoadBalancingTransport_tCBC427B25D0F207FCC8E751172AE1402A5230C80* L_26;
+		L_26 = VoiceConnection_get_Client_mE6A4D18E641A8567EE490AE5A81ECC9468F8B30F(__this, NULL);
+		il2cpp_codegen_runtime_class_init_inline(PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7* L_27;
+		L_27 = PhotonNetwork_get_AuthValues_mF4E6173BA3C5E848ABF50755644C01CF6DB7D341(NULL);
+		LoadBalancingTransport_tCBC427B25D0F207FCC8E751172AE1402A5230C80* L_28;
+		L_28 = VoiceConnection_get_Client_mE6A4D18E641A8567EE490AE5A81ECC9468F8B30F(__this, NULL);
+		NullCheck(L_28);
+		AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7* L_29;
+		L_29 = LoadBalancingClient_get_AuthValues_m58A41749A2B67F2B76EDD8C8B28A32FAA60977AA_inline(L_28, NULL);
+		NullCheck(L_27);
+		AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7* L_30;
+		L_30 = AuthenticationValues_CopyTo_m7E765A067382A14BB5E1754A652A2B56D293E9C5(L_27, L_29, NULL);
+		NullCheck(L_26);
+		LoadBalancingClient_set_AuthValues_mAFB66C3CFA04587CBA1A60711581B2BA6C6FD84C_inline(L_26, L_30, NULL);
+	}
+
+IL_00d0:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:231>
+		LoadBalancingTransport_tCBC427B25D0F207FCC8E751172AE1402A5230C80* L_31;
+		L_31 = VoiceConnection_get_Client_mE6A4D18E641A8567EE490AE5A81ECC9468F8B30F(__this, NULL);
+		il2cpp_codegen_runtime_class_init_inline(PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var);
+		LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4* L_32 = ((PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_StaticFields*)il2cpp_codegen_static_fields_for(PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var))->___NetworkingClient;
+		NullCheck(L_32);
+		int32_t L_33 = L_32->___AuthMode;
+		NullCheck(L_31);
+		((LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4*)L_31)->___AuthMode = L_33;
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:232>
+		LoadBalancingTransport_tCBC427B25D0F207FCC8E751172AE1402A5230C80* L_34;
+		L_34 = VoiceConnection_get_Client_mE6A4D18E641A8567EE490AE5A81ECC9468F8B30F(__this, NULL);
+		LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4* L_35 = ((PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_StaticFields*)il2cpp_codegen_static_fields_for(PhotonNetwork_tBF04D378B56DDA80F9DB8E08DF87D5B532C22B99_il2cpp_TypeInfo_var))->___NetworkingClient;
+		NullCheck(L_35);
+		int32_t L_36 = L_35->___EncryptionMode;
+		NullCheck(L_34);
+		((LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4*)L_34)->___EncryptionMode = L_36;
+	}
+
+IL_00fb:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:235>
+		AppSettings_tF847AF39732C3BF8BECBCCAC41D186A0B79123F7* L_37 = V_0;
+		bool L_38;
+		L_38 = VirtualFuncInvoker1< bool, AppSettings_tF847AF39732C3BF8BECBCCAC41D186A0B79123F7* >::Invoke(7, __this, L_37);
+		V_6 = L_38;
+		goto IL_0106;
+	}
+
+IL_0106:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:236>
+		bool L_39 = V_6;
+		return L_39;
+	}
+}
+// Method Definition Index: 92929
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PunVoiceClient__ctor_mBEE26AC05A44F05948281566A6031D35558052F4 (PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:47>
+		__this->___usePunAppSettings = (bool)1;
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PunVoiceClient.cs:50>
+		__this->___usePunAuthValues = (bool)1;
+		VoiceFollowClient__ctor_m38215929677BD0C78E59944DA0BD74D0BDC12907(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 92930
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceDebugScript_Awake_mD0A95C8E60D4A6175198B549D7C1B0AFFD3EE40D (VoiceDebugScript_t4AA28FE575EF14AC7BBA68FAFBB0F70E8F503315* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisPhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9_mC1E04F504797B33976B8C685BAD42A0AC1D478BB_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:37>
+		PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* L_0;
+		L_0 = Component_GetComponent_TisPhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9_mC1E04F504797B33976B8C685BAD42A0AC1D478BB(__this, Component_GetComponent_TisPhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9_mC1E04F504797B33976B8C685BAD42A0AC1D478BB_RuntimeMethod_var);
+		__this->___photonVoiceView = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___photonVoiceView), (void*)L_0);
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:38>
+		return;
+	}
+}
+// Method Definition Index: 92931
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceDebugScript_Update_mC9C4FAB7A18B7DEE6F5AC853C3BB5D0770ED5111 (VoiceDebugScript_t4AA28FE575EF14AC7BBA68FAFBB0F70E8F503315* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4816459EC827354ABCD3F7B7D8543A20050D2B0D);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	bool V_2 = false;
+	bool V_3 = false;
+	bool V_4 = false;
+	int32_t G_B5_0 = 0;
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:42>
+		VoiceDebugScript_MaxLogs_mC5F627CE9ED3A19418607F0FE7F3F6ACB05A1DB5(__this, NULL);
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:43>
+		PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* L_0 = __this->___photonVoiceView;
+		NullCheck(L_0);
+		Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* L_1;
+		L_1 = PhotonVoiceView_get_RecorderInUse_m81ED4D96A4DD34A4890843E7C485ABA2707B3A6A_inline(L_0, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_2;
+		L_2 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_0 = L_2;
+		bool L_3 = V_0;
+		if (!L_3)
+		{
+			goto IL_00f8;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:45>
+		bool L_4 = __this->___TestUsingAudioClip;
+		V_1 = L_4;
+		bool L_5 = V_1;
+		if (!L_5)
+		{
+			goto IL_00a7;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:47>
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_6 = __this->___TestAudioClip;
+		if (!L_6)
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_7 = __this->___TestAudioClip;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_8;
+		L_8 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_7, NULL);
+		G_B5_0 = ((((int32_t)L_8) == ((int32_t)0))? 1 : 0);
+		goto IL_0045;
+	}
+
+IL_0044:
+	{
+		G_B5_0 = 1;
+	}
+
+IL_0045:
+	{
+		V_2 = (bool)G_B5_0;
+		bool L_9 = V_2;
+		if (!L_9)
+		{
+			goto IL_0058;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:49>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral4816459EC827354ABCD3F7B7D8543A20050D2B0D, NULL);
+		goto IL_00a6;
+	}
+
+IL_0058:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:53>
+		PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* L_10 = __this->___photonVoiceView;
+		NullCheck(L_10);
+		Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* L_11;
+		L_11 = PhotonVoiceView_get_RecorderInUse_m81ED4D96A4DD34A4890843E7C485ABA2707B3A6A_inline(L_10, NULL);
+		NullCheck(L_11);
+		Recorder_set_SourceType_m2DBF84AF542E7662A4302A0D20399C7FC5E1E13D(L_11, 1, NULL);
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:54>
+		PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* L_12 = __this->___photonVoiceView;
+		NullCheck(L_12);
+		Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* L_13;
+		L_13 = PhotonVoiceView_get_RecorderInUse_m81ED4D96A4DD34A4890843E7C485ABA2707B3A6A_inline(L_12, NULL);
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_14 = __this->___TestAudioClip;
+		NullCheck(L_13);
+		Recorder_set_AudioClip_m6E9024961FCCF2BB761FBCE1A3133DD70FF7433A(L_13, L_14, NULL);
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:55>
+		PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* L_15 = __this->___photonVoiceView;
+		NullCheck(L_15);
+		Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* L_16;
+		L_16 = PhotonVoiceView_get_RecorderInUse_m81ED4D96A4DD34A4890843E7C485ABA2707B3A6A_inline(L_15, NULL);
+		NullCheck(L_16);
+		Recorder_set_LoopAudioClip_m22D046CB1C91C2275C4C23AE0B35CA7E4B22F014(L_16, (bool)1, NULL);
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:56>
+		PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* L_17 = __this->___photonVoiceView;
+		NullCheck(L_17);
+		Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* L_18;
+		L_18 = PhotonVoiceView_get_RecorderInUse_m81ED4D96A4DD34A4890843E7C485ABA2707B3A6A_inline(L_17, NULL);
+		NullCheck(L_18);
+		bool L_19;
+		L_19 = Recorder_RestartRecording_m98ABD12F631A9BD6CD54384C04B2CF0D85A03E2C(L_18, NULL);
+	}
+
+IL_00a6:
+	{
+	}
+
+IL_00a7:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:59>
+		bool L_20 = __this->___ForceRecordingAndTransmission;
+		V_3 = L_20;
+		bool L_21 = V_3;
+		if (!L_21)
+		{
+			goto IL_00d7;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:61>
+		PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* L_22 = __this->___photonVoiceView;
+		NullCheck(L_22);
+		Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* L_23;
+		L_23 = PhotonVoiceView_get_RecorderInUse_m81ED4D96A4DD34A4890843E7C485ABA2707B3A6A_inline(L_22, NULL);
+		NullCheck(L_23);
+		Recorder_set_RecordingEnabled_mC3AE50280E0B44300FCFFE31E4B36BDACAE2694A(L_23, (bool)1, NULL);
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:62>
+		PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* L_24 = __this->___photonVoiceView;
+		NullCheck(L_24);
+		Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* L_25;
+		L_25 = PhotonVoiceView_get_RecorderInUse_m81ED4D96A4DD34A4890843E7C485ABA2707B3A6A_inline(L_24, NULL);
+		NullCheck(L_25);
+		Recorder_set_TransmitEnabled_mB6B4C554D91CC63D61DBAE8D0C9FA948CD1E1496(L_25, (bool)1, NULL);
+	}
+
+IL_00d7:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:64>
+		bool L_26 = __this->___DisableVad;
+		V_4 = L_26;
+		bool L_27 = V_4;
+		if (!L_27)
+		{
+			goto IL_00f7;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:66>
+		PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* L_28 = __this->___photonVoiceView;
+		NullCheck(L_28);
+		Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* L_29;
+		L_29 = PhotonVoiceView_get_RecorderInUse_m81ED4D96A4DD34A4890843E7C485ABA2707B3A6A_inline(L_28, NULL);
+		NullCheck(L_29);
+		Recorder_set_VoiceDetection_m52AF86118A2E56181935DA2F77B7437CDD06CAD0(L_29, (bool)0, NULL);
+	}
+
+IL_00f7:
+	{
+	}
+
+IL_00f8:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:69>
+		return;
+	}
+}
+// Method Definition Index: 92932
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceDebugScript_CantHearYou_m01ACDDF685C91D52B833741F47D32E92C60E54E8 (VoiceDebugScript_t4AA28FE575EF14AC7BBA68FAFBB0F70E8F503315* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0992D3165D8489C42C7461FA83DBC4B3639330E8);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral62D4DA4488413E8C1FACD06BD54997CC4BCD9612);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8718556EB9DCBD2575098EAB4C86419472AC7614);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:74>
+		PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* L_0;
+		L_0 = PunVoiceClient_get_Instance_mFF6218976A4107045A96D145BC6C5249B1946D8A(NULL);
+		NullCheck(L_0);
+		LoadBalancingTransport_tCBC427B25D0F207FCC8E751172AE1402A5230C80* L_1;
+		L_1 = VoiceConnection_get_Client_mE6A4D18E641A8567EE490AE5A81ECC9468F8B30F(L_0, NULL);
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = LoadBalancingClient_get_InRoom_m94253789BA5BD9C81534C4F9682B5E707EF08E78(L_1, NULL);
+		V_0 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
+		bool L_3 = V_0;
+		if (!L_3)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:76>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral8718556EB9DCBD2575098EAB4C86419472AC7614, NULL);
+		goto IL_00b1;
+	}
+
+IL_0029:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:80>
+		PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* L_4 = __this->___photonVoiceView;
+		NullCheck(L_4);
+		Speaker_tBD124E6AEFF169667A9441881B3A98F122AE4ADE* L_5;
+		L_5 = PhotonVoiceView_get_SpeakerInUse_m2B9E01349729560A84C0CFE8C039082CBCB9B0CF_inline(L_4, NULL);
+		NullCheck(L_5);
+		bool L_6;
+		L_6 = Speaker_get_IsLinked_mF2F75BD8170F70E4E151117F1CBB059A67B1426C(L_5, NULL);
+		V_1 = (bool)((((int32_t)L_6) == ((int32_t)0))? 1 : 0);
+		bool L_7 = V_1;
+		if (!L_7)
+		{
+			goto IL_004e;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:82>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral0992D3165D8489C42C7461FA83DBC4B3639330E8, NULL);
+	}
+
+IL_004e:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:84>
+		PhotonView_t43F3D22FF3D00F7824E82D741D70F9CB55642E6B* L_8;
+		L_8 = MonoBehaviourPun_get_photonView_m0DBC40909E2E885D7FA3D40157A189FADEE98A67(__this, NULL);
+		PhotonView_t43F3D22FF3D00F7824E82D741D70F9CB55642E6B* L_9;
+		L_9 = MonoBehaviourPun_get_photonView_m0DBC40909E2E885D7FA3D40157A189FADEE98A67(__this, NULL);
+		NullCheck(L_9);
+		Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA363C* L_10;
+		L_10 = PhotonView_get_Owner_m99D611AD5C17B06E4490F75CFAC02C26AABC4A21_inline(L_9, NULL);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_11 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)3);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_12 = L_11;
+		PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* L_13;
+		L_13 = PunVoiceClient_get_Instance_mFF6218976A4107045A96D145BC6C5249B1946D8A(NULL);
+		NullCheck(L_13);
+		LoadBalancingTransport_tCBC427B25D0F207FCC8E751172AE1402A5230C80* L_14;
+		L_14 = VoiceConnection_get_Client_mE6A4D18E641A8567EE490AE5A81ECC9468F8B30F(L_13, NULL);
+		NullCheck(L_14);
+		Room_t9CCA5C06B8CE2E5E1EE24AD17360F218C4E36373* L_15;
+		L_15 = LoadBalancingClient_get_CurrentRoom_mADB06D45AD1F8289D93F08F322C9FDB694EAC291_inline(L_14, NULL);
+		NullCheck(L_15);
+		String_t* L_16;
+		L_16 = Room_get_Name_m8C466150335A007F72B11711AB64F9F62288D500(L_15, NULL);
+		NullCheck(L_12);
+		ArrayElementTypeCheck (L_12, L_16);
+		(L_12)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_16);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_17 = L_12;
+		PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* L_18;
+		L_18 = PunVoiceClient_get_Instance_mFF6218976A4107045A96D145BC6C5249B1946D8A(NULL);
+		NullCheck(L_18);
+		LoadBalancingTransport_tCBC427B25D0F207FCC8E751172AE1402A5230C80* L_19;
+		L_19 = VoiceConnection_get_Client_mE6A4D18E641A8567EE490AE5A81ECC9468F8B30F(L_18, NULL);
+		NullCheck(L_19);
+		LoadBalancingPeer_t8C350A611B061F0EA1DE76C03AFD0CE19070E81F* L_20;
+		L_20 = LoadBalancingClient_get_LoadBalancingPeer_mF3097AB6F64148B7BF7B1AEFA7FB37DE30AC30C5_inline(L_19, NULL);
+		NullCheck(L_20);
+		String_t* L_21;
+		L_21 = PhotonPeer_get_ServerIpAddress_m39ED914DE2093FDAE8B264A3AD9D3A97A02ED59D(L_20, NULL);
+		NullCheck(L_17);
+		ArrayElementTypeCheck (L_17, L_21);
+		(L_17)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_21);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_22 = L_17;
+		PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* L_23;
+		L_23 = PunVoiceClient_get_Instance_mFF6218976A4107045A96D145BC6C5249B1946D8A(NULL);
+		NullCheck(L_23);
+		LoadBalancingTransport_tCBC427B25D0F207FCC8E751172AE1402A5230C80* L_24;
+		L_24 = VoiceConnection_get_Client_mE6A4D18E641A8567EE490AE5A81ECC9468F8B30F(L_23, NULL);
+		NullCheck(L_24);
+		String_t* L_25;
+		L_25 = LoadBalancingClient_get_AppVersion_mA2E5DE4671D1C7BD67296921DBD776E61F63E388_inline(L_24, NULL);
+		NullCheck(L_22);
+		ArrayElementTypeCheck (L_22, L_25);
+		(L_22)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_25);
+		NullCheck(L_8);
+		PhotonView_RPC_m985C1C00D88C33FABAE7B0C51AAB32C67A9D010B(L_8, _stringLiteral62D4DA4488413E8C1FACD06BD54997CC4BCD9612, L_10, L_22, NULL);
+	}
+
+IL_00b1:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:86>
+		return;
+	}
+}
+// Method Definition Index: 92933
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceDebugScript_CantHearYou_mDB6CAF40DFA8618703797A58F620B73AC0FBDD63 (VoiceDebugScript_t4AA28FE575EF14AC7BBA68FAFBB0F70E8F503315* __this, String_t* ___0_roomName, String_t* ___1_serverIp, String_t* ___2_appVersion, PhotonMessageInfo_tBA8653D413ADDF1C1329026FA1B84F1BD4F203CA ___3_photonMessageInfo, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral09AF8992981BCC4085724E4E3D0CF09319FCE9D9);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0AAD5240183043F2AC9BF73F3688D7989AA5DD58);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0AB9A62FEB121241DAF6E027F68F70D4A6625235);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2354DE780A5B69C0FEED47C58F7AAB3C88099215);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral24F5590E4C612C6C361CC9B6A7D645EEF121B6BD);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2B2DA86F8E43CCF02C50633D307C27C7B2BBB4AB);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral45CC5DDEA8717A99A5B870EE5DABECF5F7C7046A);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5395A2F08284F5EAE81B1C322B82D7E19E4D4CF3);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral566067E3C1339B5F41E264C307AFED1E012B8F76);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5E7DA8E8875DDA9664D612DF021FC38E6BA46578);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC5F700A67A6310E33DD094AAC545BF1871B6D467);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCBA0771AC72CD21EFF386416E9F6F5302398353F);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD0942E93D883771539D99BE72A7DDCB8AE98CDC8);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD0C669958BFD1AB4581DA8AE8C62EA5A5074640C);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD898110020367A3C85DFC02C4633ED3E8B6CE172);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	bool V_1 = false;
+	bool V_2 = false;
+	bool V_3 = false;
+	bool V_4 = false;
+	bool V_5 = false;
+	bool V_6 = false;
+	bool V_7 = false;
+	bool V_8 = false;
+	bool V_9 = false;
+	bool V_10 = false;
+	bool V_11 = false;
+	bool V_12 = false;
+	bool V_13 = false;
+	bool V_14 = false;
+	int32_t G_B19_0 = 0;
+	int32_t G_B24_0 = 0;
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:92>
+		PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* L_0;
+		L_0 = PunVoiceClient_get_Instance_mFF6218976A4107045A96D145BC6C5249B1946D8A(NULL);
+		NullCheck(L_0);
+		LoadBalancingTransport_tCBC427B25D0F207FCC8E751172AE1402A5230C80* L_1;
+		L_1 = VoiceConnection_get_Client_mE6A4D18E641A8567EE490AE5A81ECC9468F8B30F(L_0, NULL);
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = LoadBalancingClient_get_InRoom_m94253789BA5BD9C81534C4F9682B5E707EF08E78(L_1, NULL);
+		V_1 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
+		bool L_3 = V_1;
+		if (!L_3)
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:94>
+		V_0 = _stringLiteral5E7DA8E8875DDA9664D612DF021FC38E6BA46578;
+		goto IL_036f;
+	}
+
+IL_0024:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:96>
+		PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* L_4;
+		L_4 = PunVoiceClient_get_Instance_mFF6218976A4107045A96D145BC6C5249B1946D8A(NULL);
+		NullCheck(L_4);
+		LoadBalancingTransport_tCBC427B25D0F207FCC8E751172AE1402A5230C80* L_5;
+		L_5 = VoiceConnection_get_Client_mE6A4D18E641A8567EE490AE5A81ECC9468F8B30F(L_4, NULL);
+		NullCheck(L_5);
+		Room_t9CCA5C06B8CE2E5E1EE24AD17360F218C4E36373* L_6;
+		L_6 = LoadBalancingClient_get_CurrentRoom_mADB06D45AD1F8289D93F08F322C9FDB694EAC291_inline(L_5, NULL);
+		NullCheck(L_6);
+		String_t* L_7;
+		L_7 = Room_get_Name_m8C466150335A007F72B11711AB64F9F62288D500(L_6, NULL);
+		String_t* L_8 = ___0_roomName;
+		NullCheck(L_7);
+		bool L_9;
+		L_9 = String_Equals_mCD5F35DEDCAFE51ACD4E033726FC2EF8DF7E9B4D(L_7, L_8, NULL);
+		V_2 = (bool)((((int32_t)L_9) == ((int32_t)0))? 1 : 0);
+		bool L_10 = V_2;
+		if (!L_10)
+		{
+			goto IL_006c;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:98>
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:99>
+		PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* L_11;
+		L_11 = PunVoiceClient_get_Instance_mFF6218976A4107045A96D145BC6C5249B1946D8A(NULL);
+		NullCheck(L_11);
+		LoadBalancingTransport_tCBC427B25D0F207FCC8E751172AE1402A5230C80* L_12;
+		L_12 = VoiceConnection_get_Client_mE6A4D18E641A8567EE490AE5A81ECC9468F8B30F(L_11, NULL);
+		NullCheck(L_12);
+		Room_t9CCA5C06B8CE2E5E1EE24AD17360F218C4E36373* L_13;
+		L_13 = LoadBalancingClient_get_CurrentRoom_mADB06D45AD1F8289D93F08F322C9FDB694EAC291_inline(L_12, NULL);
+		NullCheck(L_13);
+		String_t* L_14;
+		L_14 = Room_get_Name_m8C466150335A007F72B11711AB64F9F62288D500(L_13, NULL);
+		String_t* L_15 = ___0_roomName;
+		String_t* L_16;
+		L_16 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral0AAD5240183043F2AC9BF73F3688D7989AA5DD58, L_14, L_15, NULL);
+		V_0 = L_16;
+		goto IL_036f;
+	}
+
+IL_006c:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:101>
+		PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* L_17;
+		L_17 = PunVoiceClient_get_Instance_mFF6218976A4107045A96D145BC6C5249B1946D8A(NULL);
+		NullCheck(L_17);
+		LoadBalancingTransport_tCBC427B25D0F207FCC8E751172AE1402A5230C80* L_18;
+		L_18 = VoiceConnection_get_Client_mE6A4D18E641A8567EE490AE5A81ECC9468F8B30F(L_17, NULL);
+		NullCheck(L_18);
+		LoadBalancingPeer_t8C350A611B061F0EA1DE76C03AFD0CE19070E81F* L_19;
+		L_19 = LoadBalancingClient_get_LoadBalancingPeer_mF3097AB6F64148B7BF7B1AEFA7FB37DE30AC30C5_inline(L_18, NULL);
+		NullCheck(L_19);
+		String_t* L_20;
+		L_20 = PhotonPeer_get_ServerIpAddress_m39ED914DE2093FDAE8B264A3AD9D3A97A02ED59D(L_19, NULL);
+		String_t* L_21 = ___1_serverIp;
+		NullCheck(L_20);
+		bool L_22;
+		L_22 = String_Equals_mCD5F35DEDCAFE51ACD4E033726FC2EF8DF7E9B4D(L_20, L_21, NULL);
+		V_3 = (bool)((((int32_t)L_22) == ((int32_t)0))? 1 : 0);
+		bool L_23 = V_3;
+		if (!L_23)
+		{
+			goto IL_00b4;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:103>
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:104>
+		PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* L_24;
+		L_24 = PunVoiceClient_get_Instance_mFF6218976A4107045A96D145BC6C5249B1946D8A(NULL);
+		NullCheck(L_24);
+		LoadBalancingTransport_tCBC427B25D0F207FCC8E751172AE1402A5230C80* L_25;
+		L_25 = VoiceConnection_get_Client_mE6A4D18E641A8567EE490AE5A81ECC9468F8B30F(L_24, NULL);
+		NullCheck(L_25);
+		LoadBalancingPeer_t8C350A611B061F0EA1DE76C03AFD0CE19070E81F* L_26;
+		L_26 = LoadBalancingClient_get_LoadBalancingPeer_mF3097AB6F64148B7BF7B1AEFA7FB37DE30AC30C5_inline(L_25, NULL);
+		NullCheck(L_26);
+		String_t* L_27;
+		L_27 = PhotonPeer_get_ServerIpAddress_m39ED914DE2093FDAE8B264A3AD9D3A97A02ED59D(L_26, NULL);
+		String_t* L_28 = ___1_serverIp;
+		String_t* L_29;
+		L_29 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral2B2DA86F8E43CCF02C50633D307C27C7B2BBB4AB, L_27, L_28, NULL);
+		V_0 = L_29;
+		goto IL_036f;
+	}
+
+IL_00b4:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:106>
+		PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* L_30;
+		L_30 = PunVoiceClient_get_Instance_mFF6218976A4107045A96D145BC6C5249B1946D8A(NULL);
+		NullCheck(L_30);
+		LoadBalancingTransport_tCBC427B25D0F207FCC8E751172AE1402A5230C80* L_31;
+		L_31 = VoiceConnection_get_Client_mE6A4D18E641A8567EE490AE5A81ECC9468F8B30F(L_30, NULL);
+		NullCheck(L_31);
+		String_t* L_32;
+		L_32 = LoadBalancingClient_get_AppVersion_mA2E5DE4671D1C7BD67296921DBD776E61F63E388_inline(L_31, NULL);
+		String_t* L_33 = ___2_appVersion;
+		NullCheck(L_32);
+		bool L_34;
+		L_34 = String_Equals_mCD5F35DEDCAFE51ACD4E033726FC2EF8DF7E9B4D(L_32, L_33, NULL);
+		V_4 = (bool)((((int32_t)L_34) == ((int32_t)0))? 1 : 0);
+		bool L_35 = V_4;
+		if (!L_35)
+		{
+			goto IL_00f4;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:108>
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:109>
+		PunVoiceClient_tDCCDF79EA73DB2F09FFF216BBC6FF55C1F8202A1* L_36;
+		L_36 = PunVoiceClient_get_Instance_mFF6218976A4107045A96D145BC6C5249B1946D8A(NULL);
+		NullCheck(L_36);
+		LoadBalancingTransport_tCBC427B25D0F207FCC8E751172AE1402A5230C80* L_37;
+		L_37 = VoiceConnection_get_Client_mE6A4D18E641A8567EE490AE5A81ECC9468F8B30F(L_36, NULL);
+		NullCheck(L_37);
+		String_t* L_38;
+		L_38 = LoadBalancingClient_get_AppVersion_mA2E5DE4671D1C7BD67296921DBD776E61F63E388_inline(L_37, NULL);
+		String_t* L_39 = ___2_appVersion;
+		String_t* L_40;
+		L_40 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralD898110020367A3C85DFC02C4633ED3E8B6CE172, L_38, L_39, NULL);
+		V_0 = L_40;
+		goto IL_036f;
+	}
+
+IL_00f4:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:111>
+		PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* L_41 = __this->___photonVoiceView;
+		NullCheck(L_41);
+		Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* L_42;
+		L_42 = PhotonVoiceView_get_RecorderInUse_m81ED4D96A4DD34A4890843E7C485ABA2707B3A6A_inline(L_41, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_43;
+		L_43 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_42, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_5 = L_43;
+		bool L_44 = V_5;
+		if (!L_44)
+		{
+			goto IL_0118;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:113>
+		V_0 = _stringLiteral5395A2F08284F5EAE81B1C322B82D7E19E4D4CF3;
+		goto IL_036f;
+	}
+
+IL_0118:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:116>
+		PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* L_45 = __this->___photonVoiceView;
+		NullCheck(L_45);
+		Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* L_46;
+		L_46 = PhotonVoiceView_get_RecorderInUse_m81ED4D96A4DD34A4890843E7C485ABA2707B3A6A_inline(L_45, NULL);
+		NullCheck(L_46);
+		bool L_47;
+		L_47 = Recorder_get_RecordingEnabled_mEDEDC73670D1A7D991F8341AF27A1B268329D0FA(L_46, NULL);
+		V_6 = (bool)((((int32_t)L_47) == ((int32_t)0))? 1 : 0);
+		bool L_48 = V_6;
+		if (!L_48)
+		{
+			goto IL_0150;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:118>
+		V_0 = _stringLiteral2354DE780A5B69C0FEED47C58F7AAB3C88099215;
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:119>
+		PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* L_49 = __this->___photonVoiceView;
+		NullCheck(L_49);
+		Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* L_50;
+		L_50 = PhotonVoiceView_get_RecorderInUse_m81ED4D96A4DD34A4890843E7C485ABA2707B3A6A_inline(L_49, NULL);
+		NullCheck(L_50);
+		Recorder_set_RecordingEnabled_mC3AE50280E0B44300FCFFE31E4B36BDACAE2694A(L_50, (bool)1, NULL);
+		goto IL_036f;
+	}
+
+IL_0150:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:121>
+		PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* L_51 = __this->___photonVoiceView;
+		NullCheck(L_51);
+		Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* L_52;
+		L_52 = PhotonVoiceView_get_RecorderInUse_m81ED4D96A4DD34A4890843E7C485ABA2707B3A6A_inline(L_51, NULL);
+		NullCheck(L_52);
+		bool L_53;
+		L_53 = Recorder_get_TransmitEnabled_mD117C665FA63F1C56E815F8808E6B5A02241F91E(L_52, NULL);
+		V_7 = (bool)((((int32_t)L_53) == ((int32_t)0))? 1 : 0);
+		bool L_54 = V_7;
+		if (!L_54)
+		{
+			goto IL_0188;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:123>
+		V_0 = _stringLiteral566067E3C1339B5F41E264C307AFED1E012B8F76;
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:124>
+		PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* L_55 = __this->___photonVoiceView;
+		NullCheck(L_55);
+		Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* L_56;
+		L_56 = PhotonVoiceView_get_RecorderInUse_m81ED4D96A4DD34A4890843E7C485ABA2707B3A6A_inline(L_55, NULL);
+		NullCheck(L_56);
+		Recorder_set_TransmitEnabled_mB6B4C554D91CC63D61DBAE8D0C9FA948CD1E1496(L_56, (bool)1, NULL);
+		goto IL_036f;
+	}
+
+IL_0188:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:126>
+		PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* L_57 = __this->___photonVoiceView;
+		NullCheck(L_57);
+		Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* L_58;
+		L_58 = PhotonVoiceView_get_RecorderInUse_m81ED4D96A4DD34A4890843E7C485ABA2707B3A6A_inline(L_57, NULL);
+		NullCheck(L_58);
+		uint8_t L_59;
+		L_59 = Recorder_get_InterestGroup_m766F1E89F3428A4B72F2FECA2A6D500B42D75D0F(L_58, NULL);
+		V_8 = (bool)((!(((uint32_t)L_59) <= ((uint32_t)0)))? 1 : 0);
+		bool L_60 = V_8;
+		if (!L_60)
+		{
+			goto IL_01c0;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:128>
+		V_0 = _stringLiteralD0942E93D883771539D99BE72A7DDCB8AE98CDC8;
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:129>
+		PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* L_61 = __this->___photonVoiceView;
+		NullCheck(L_61);
+		Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* L_62;
+		L_62 = PhotonVoiceView_get_RecorderInUse_m81ED4D96A4DD34A4890843E7C485ABA2707B3A6A_inline(L_61, NULL);
+		NullCheck(L_62);
+		Recorder_set_InterestGroup_mE20323891F9FA5B34039167207D72DA97017C353(L_62, (uint8_t)0, NULL);
+		goto IL_036f;
+	}
+
+IL_01c0:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:131>
+		PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* L_63 = __this->___photonVoiceView;
+		NullCheck(L_63);
+		Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* L_64;
+		L_64 = PhotonVoiceView_get_RecorderInUse_m81ED4D96A4DD34A4890843E7C485ABA2707B3A6A_inline(L_63, NULL);
+		NullCheck(L_64);
+		RuntimeObject* L_65;
+		L_65 = Recorder_get_UserData_m5D5FA3E69ABD3F5CAB96102519995BDF1C488BF7(L_64, NULL);
+		if (!((RuntimeObject*)IsInstSealed((RuntimeObject*)L_65, il2cpp_defaults.int32_class)))
+		{
+			goto IL_01fe;
+		}
+	}
+	{
+		PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* L_66 = __this->___photonVoiceView;
+		NullCheck(L_66);
+		Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* L_67;
+		L_67 = PhotonVoiceView_get_RecorderInUse_m81ED4D96A4DD34A4890843E7C485ABA2707B3A6A_inline(L_66, NULL);
+		NullCheck(L_67);
+		RuntimeObject* L_68;
+		L_68 = Recorder_get_UserData_m5D5FA3E69ABD3F5CAB96102519995BDF1C488BF7(L_67, NULL);
+		PhotonView_t43F3D22FF3D00F7824E82D741D70F9CB55642E6B* L_69;
+		L_69 = MonoBehaviourPun_get_photonView_m0DBC40909E2E885D7FA3D40157A189FADEE98A67(__this, NULL);
+		NullCheck(L_69);
+		int32_t L_70;
+		L_70 = PhotonView_get_ViewID_m69795CA0AB8AB13740BEDAD899BED88745F4C8A5(L_69, NULL);
+		G_B19_0 = ((((int32_t)((((int32_t)((*(int32_t*)UnBox(L_68, il2cpp_defaults.int32_class)))) == ((int32_t)L_70))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_01ff;
+	}
+
+IL_01fe:
+	{
+		G_B19_0 = 1;
+	}
+
+IL_01ff:
+	{
+		V_9 = (bool)G_B19_0;
+		bool L_71 = V_9;
+		if (!L_71)
+		{
+			goto IL_0269;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:133>
+		PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* L_72 = __this->___photonVoiceView;
+		NullCheck(L_72);
+		Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* L_73;
+		L_73 = PhotonVoiceView_get_RecorderInUse_m81ED4D96A4DD34A4890843E7C485ABA2707B3A6A_inline(L_72, NULL);
+		NullCheck(L_73);
+		RuntimeObject* L_74;
+		L_74 = Recorder_get_UserData_m5D5FA3E69ABD3F5CAB96102519995BDF1C488BF7(L_73, NULL);
+		PhotonView_t43F3D22FF3D00F7824E82D741D70F9CB55642E6B* L_75;
+		L_75 = MonoBehaviourPun_get_photonView_m0DBC40909E2E885D7FA3D40157A189FADEE98A67(__this, NULL);
+		NullCheck(L_75);
+		int32_t L_76;
+		L_76 = PhotonView_get_ViewID_m69795CA0AB8AB13740BEDAD899BED88745F4C8A5(L_75, NULL);
+		int32_t L_77 = L_76;
+		RuntimeObject* L_78 = Box(il2cpp_defaults.int32_class, &L_77);
+		String_t* L_79;
+		L_79 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral0AB9A62FEB121241DAF6E027F68F70D4A6625235, L_74, L_78, NULL);
+		V_0 = L_79;
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:134>
+		PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* L_80 = __this->___photonVoiceView;
+		NullCheck(L_80);
+		Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* L_81;
+		L_81 = PhotonVoiceView_get_RecorderInUse_m81ED4D96A4DD34A4890843E7C485ABA2707B3A6A_inline(L_80, NULL);
+		PhotonView_t43F3D22FF3D00F7824E82D741D70F9CB55642E6B* L_82;
+		L_82 = MonoBehaviourPun_get_photonView_m0DBC40909E2E885D7FA3D40157A189FADEE98A67(__this, NULL);
+		NullCheck(L_82);
+		int32_t L_83;
+		L_83 = PhotonView_get_ViewID_m69795CA0AB8AB13740BEDAD899BED88745F4C8A5(L_82, NULL);
+		int32_t L_84 = L_83;
+		RuntimeObject* L_85 = Box(il2cpp_defaults.int32_class, &L_84);
+		NullCheck(L_81);
+		Recorder_set_UserData_m1C4EEB773903B76FAA6A48AD20B670189237CDE0(L_81, L_85, NULL);
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:135>
+		PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* L_86 = __this->___photonVoiceView;
+		NullCheck(L_86);
+		Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* L_87;
+		L_87 = PhotonVoiceView_get_RecorderInUse_m81ED4D96A4DD34A4890843E7C485ABA2707B3A6A_inline(L_86, NULL);
+		NullCheck(L_87);
+		bool L_88;
+		L_88 = Recorder_RestartRecording_m98ABD12F631A9BD6CD54384C04B2CF0D85A03E2C(L_87, NULL);
+		goto IL_036f;
+	}
+
+IL_0269:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:137>
+		PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* L_89 = __this->___photonVoiceView;
+		NullCheck(L_89);
+		Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* L_90;
+		L_90 = PhotonVoiceView_get_RecorderInUse_m81ED4D96A4DD34A4890843E7C485ABA2707B3A6A_inline(L_89, NULL);
+		NullCheck(L_90);
+		bool L_91;
+		L_91 = Recorder_get_VoiceDetection_mF217F20782F7563928EF8A09B5283FF3D5B58F52(L_90, NULL);
+		if (!L_91)
+		{
+			goto IL_0283;
+		}
+	}
+	{
+		bool L_92 = __this->___DisableVad;
+		G_B24_0 = ((int32_t)(L_92));
+		goto IL_0284;
+	}
+
+IL_0283:
+	{
+		G_B24_0 = 0;
+	}
+
+IL_0284:
+	{
+		V_10 = (bool)G_B24_0;
+		bool L_93 = V_10;
+		if (!L_93)
+		{
+			goto IL_02a9;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:139>
+		V_0 = _stringLiteralC5F700A67A6310E33DD094AAC545BF1871B6D467;
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:140>
+		PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* L_94 = __this->___photonVoiceView;
+		NullCheck(L_94);
+		Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* L_95;
+		L_95 = PhotonVoiceView_get_RecorderInUse_m81ED4D96A4DD34A4890843E7C485ABA2707B3A6A_inline(L_94, NULL);
+		NullCheck(L_95);
+		Recorder_set_VoiceDetection_m52AF86118A2E56181935DA2F77B7437CDD06CAD0(L_95, (bool)0, NULL);
+		goto IL_036f;
+	}
+
+IL_02a9:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:142>
+		PhotonView_t43F3D22FF3D00F7824E82D741D70F9CB55642E6B* L_96;
+		L_96 = MonoBehaviourPun_get_photonView_m0DBC40909E2E885D7FA3D40157A189FADEE98A67(__this, NULL);
+		NullCheck(L_96);
+		int32_t L_97;
+		L_97 = PhotonView_get_OwnerActorNr_mD9C14958B5CC4A817C6720FD0BF37A9B61A47FDF(L_96, NULL);
+		PhotonMessageInfo_tBA8653D413ADDF1C1329026FA1B84F1BD4F203CA L_98 = ___3_photonMessageInfo;
+		Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA363C* L_99 = L_98.___Sender;
+		NullCheck(L_99);
+		int32_t L_100;
+		L_100 = Player_get_ActorNumber_mE177B60195A5329B1E5D3012295DB0098B7A0F3A(L_99, NULL);
+		V_11 = (bool)((((int32_t)L_97) == ((int32_t)L_100))? 1 : 0);
+		bool L_101 = V_11;
+		if (!L_101)
+		{
+			goto IL_0356;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:144>
+		bool L_102 = __this->___LocalDebug;
+		V_12 = L_102;
+		bool L_103 = V_12;
+		if (!L_103)
+		{
+			goto IL_034b;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:146>
+		PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* L_104 = __this->___photonVoiceView;
+		NullCheck(L_104);
+		Speaker_tBD124E6AEFF169667A9441881B3A98F122AE4ADE* L_105;
+		L_105 = PhotonVoiceView_get_SpeakerInUse_m2B9E01349729560A84C0CFE8C039082CBCB9B0CF_inline(L_104, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_106;
+		L_106 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_105, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_13 = L_106;
+		bool L_107 = V_13;
+		if (!L_107)
+		{
+			goto IL_030b;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:148>
+		V_0 = _stringLiteralD0C669958BFD1AB4581DA8AE8C62EA5A5074640C;
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:149>
+		PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* L_108 = __this->___photonVoiceView;
+		NullCheck(L_108);
+		Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* L_109;
+		L_109 = PhotonVoiceView_get_RecorderInUse_m81ED4D96A4DD34A4890843E7C485ABA2707B3A6A_inline(L_108, NULL);
+		NullCheck(L_109);
+		bool L_110;
+		L_110 = Recorder_RestartRecording_m98ABD12F631A9BD6CD54384C04B2CF0D85A03E2C(L_109, NULL);
+		goto IL_0348;
+	}
+
+IL_030b:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:151>
+		PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* L_111 = __this->___photonVoiceView;
+		NullCheck(L_111);
+		Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* L_112;
+		L_112 = PhotonVoiceView_get_RecorderInUse_m81ED4D96A4DD34A4890843E7C485ABA2707B3A6A_inline(L_111, NULL);
+		NullCheck(L_112);
+		bool L_113;
+		L_113 = Recorder_get_DebugEchoMode_m727853F9D824E99FE754C56FAE427434E308563F(L_112, NULL);
+		V_14 = (bool)((((int32_t)L_113) == ((int32_t)0))? 1 : 0);
+		bool L_114 = V_14;
+		if (!L_114)
+		{
+			goto IL_0340;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:153>
+		V_0 = _stringLiteralCBA0771AC72CD21EFF386416E9F6F5302398353F;
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:154>
+		PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* L_115 = __this->___photonVoiceView;
+		NullCheck(L_115);
+		Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* L_116;
+		L_116 = PhotonVoiceView_get_RecorderInUse_m81ED4D96A4DD34A4890843E7C485ABA2707B3A6A_inline(L_115, NULL);
+		NullCheck(L_116);
+		Recorder_set_DebugEchoMode_mF63CA073EC931A8ED3323261BC44A984B158765C(L_116, (bool)1, NULL);
+		goto IL_0348;
+	}
+
+IL_0340:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:158>
+		V_0 = _stringLiteral45CC5DDEA8717A99A5B870EE5DABECF5F7C7046A;
+	}
+
+IL_0348:
+	{
+		goto IL_0353;
+	}
+
+IL_034b:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:164>
+		V_0 = _stringLiteral09AF8992981BCC4085724E4E3D0CF09319FCE9D9;
+	}
+
+IL_0353:
+	{
+		goto IL_036f;
+	}
+
+IL_0356:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:169>
+		V_0 = _stringLiteral24F5590E4C612C6C361CC9B6A7D645EEF121B6BD;
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:170>
+		PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* L_117 = __this->___photonVoiceView;
+		NullCheck(L_117);
+		Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* L_118;
+		L_118 = PhotonVoiceView_get_RecorderInUse_m81ED4D96A4DD34A4890843E7C485ABA2707B3A6A_inline(L_117, NULL);
+		NullCheck(L_118);
+		bool L_119;
+		L_119 = Recorder_RestartRecording_m98ABD12F631A9BD6CD54384C04B2CF0D85A03E2C(L_118, NULL);
+	}
+
+IL_036f:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:172>
+		String_t* L_120 = V_0;
+		PhotonMessageInfo_tBA8653D413ADDF1C1329026FA1B84F1BD4F203CA L_121 = ___3_photonMessageInfo;
+		Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA363C* L_122 = L_121.___Sender;
+		VoiceDebugScript_Reply_mC62DA59510C6110A9240288DD4FC39CEDA900FD0(__this, L_120, L_122, NULL);
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:173>
+		return;
+	}
+}
+// Method Definition Index: 92934
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceDebugScript_Reply_mC62DA59510C6110A9240288DD4FC39CEDA900FD0 (VoiceDebugScript_t4AA28FE575EF14AC7BBA68FAFBB0F70E8F503315* __this, String_t* ___0_why, Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA363C* ___1_player, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1F11D7FD924312A01D1434E6B6C15C14D50960BC);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:177>
+		PhotonView_t43F3D22FF3D00F7824E82D741D70F9CB55642E6B* L_0;
+		L_0 = MonoBehaviourPun_get_photonView_m0DBC40909E2E885D7FA3D40157A189FADEE98A67(__this, NULL);
+		Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA363C* L_1 = ___1_player;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_2 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3 = L_2;
+		String_t* L_4 = ___0_why;
+		NullCheck(L_3);
+		ArrayElementTypeCheck (L_3, L_4);
+		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_4);
+		NullCheck(L_0);
+		PhotonView_RPC_m985C1C00D88C33FABAE7B0C51AAB32C67A9D010B(L_0, _stringLiteral1F11D7FD924312A01D1434E6B6C15C14D50960BC, L_1, L_3, NULL);
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:178>
+		return;
+	}
+}
+// Method Definition Index: 92935
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceDebugScript_HeresWhy_m7F555EE870ACD4FA64233C006262C9DA5B21FC33 (VoiceDebugScript_t4AA28FE575EF14AC7BBA68FAFBB0F70E8F503315* __this, String_t* ___0_why, PhotonMessageInfo_tBA8653D413ADDF1C1329026FA1B84F1BD4F203CA ___1_photonMessageInfo, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0ADAA9081239C97382D9F0956300A807BE35143E);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:183>
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)2);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = L_0;
+		PhotonMessageInfo_tBA8653D413ADDF1C1329026FA1B84F1BD4F203CA L_2 = ___1_photonMessageInfo;
+		Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA363C* L_3 = L_2.___Sender;
+		NullCheck(L_1);
+		ArrayElementTypeCheck (L_1, L_3);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_3);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = L_1;
+		String_t* L_5 = ___0_why;
+		NullCheck(L_4);
+		ArrayElementTypeCheck (L_4, L_5);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_5);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogErrorFormat_m96690322C941D23A125E5769C9803606859A707C(_stringLiteral0ADAA9081239C97382D9F0956300A807BE35143E, L_4, NULL);
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:184>
+		return;
+	}
+}
+// Method Definition Index: 92936
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceDebugScript_MaxLogs_mC5F627CE9ED3A19418607F0FE7F3F6ACB05A1DB5 (VoiceDebugScript_t4AA28FE575EF14AC7BBA68FAFBB0F70E8F503315* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_FindObjectsByType_TisVoiceLogger_t43ABA98917D5D00D8121A67D03DDB5EDB721F0D7_mFE0135C92C6220D8E85C56E1CBAA705235146A54_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	VoiceLoggerU5BU5D_t2EAAFCE8EAC2A25FE8F16DDF75F3FCD04D846410* V_1 = NULL;
+	VoiceLoggerU5BU5D_t2EAAFCE8EAC2A25FE8F16DDF75F3FCD04D846410* V_2 = NULL;
+	int32_t V_3 = 0;
+	VoiceLogger_t43ABA98917D5D00D8121A67D03DDB5EDB721F0D7* V_4 = NULL;
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:188>
+		bool L_0 = __this->___IncreaseLogLevels;
+		V_0 = L_0;
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:191>
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		VoiceLoggerU5BU5D_t2EAAFCE8EAC2A25FE8F16DDF75F3FCD04D846410* L_2;
+		L_2 = Object_FindObjectsByType_TisVoiceLogger_t43ABA98917D5D00D8121A67D03DDB5EDB721F0D7_mFE0135C92C6220D8E85C56E1CBAA705235146A54(1, Object_FindObjectsByType_TisVoiceLogger_t43ABA98917D5D00D8121A67D03DDB5EDB721F0D7_mFE0135C92C6220D8E85C56E1CBAA705235146A54_RuntimeMethod_var);
+		V_1 = L_2;
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:195>
+		VoiceLoggerU5BU5D_t2EAAFCE8EAC2A25FE8F16DDF75F3FCD04D846410* L_3 = V_1;
+		V_2 = L_3;
+		V_3 = 0;
+		goto IL_002d;
+	}
+
+IL_001a:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:195>
+		VoiceLoggerU5BU5D_t2EAAFCE8EAC2A25FE8F16DDF75F3FCD04D846410* L_4 = V_2;
+		int32_t L_5 = V_3;
+		NullCheck(L_4);
+		int32_t L_6 = L_5;
+		VoiceLogger_t43ABA98917D5D00D8121A67D03DDB5EDB721F0D7* L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		V_4 = L_7;
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:197>
+		VoiceLogger_t43ABA98917D5D00D8121A67D03DDB5EDB721F0D7* L_8 = V_4;
+		NullCheck(L_8);
+		L_8->___LogLevel = 5;
+		int32_t L_9 = V_3;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_9, 1));
+	}
+
+IL_002d:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:195>
+		int32_t L_10 = V_3;
+		VoiceLoggerU5BU5D_t2EAAFCE8EAC2A25FE8F16DDF75F3FCD04D846410* L_11 = V_2;
+		NullCheck(L_11);
+		if ((((int32_t)L_10) < ((int32_t)((int32_t)(((RuntimeArray*)L_11)->max_length)))))
+		{
+			goto IL_001a;
+		}
+	}
+	{
+	}
+
+IL_0034:
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/UtilityScripts/VoiceDebugScript.cs:200>
+		return;
+	}
+}
+// Method Definition Index: 92937
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceDebugScript__ctor_m0269E26C7BDB17ADB0A007CCC8CE1053B17208A2 (VoiceDebugScript_t4AA28FE575EF14AC7BBA68FAFBB0F70E8F503315* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviourPun__ctor_m52771D9D46565807FDF72A7B6622574D38C29A55(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Method Definition Index: 92906
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Speaker_tBD124E6AEFF169667A9441881B3A98F122AE4ADE* PhotonVoiceView_get_SpeakerInUse_m2B9E01349729560A84C0CFE8C039082CBCB9B0CF_inline (PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:49>
+		Speaker_tBD124E6AEFF169667A9441881B3A98F122AE4ADE* L_0 = __this->___U3CSpeakerInUseU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 92904
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* PhotonVoiceView_get_RecorderInUse_m81ED4D96A4DD34A4890843E7C485ABA2707B3A6A_inline (PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:46>
+		Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* L_0 = __this->___U3CRecorderInUseU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 84343
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool PhotonView_get_IsMine_mE26FB70A42C0D92C66536B45D7A7F8F491C8D648_inline (PhotonView_t43F3D22FF3D00F7824E82D741D70F9CB55642E6B* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonUnityNetworking/Code/PhotonView.cs:180>
+		bool L_0 = __this->___U3CIsMineU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 88669
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* VoiceConnection_get_PrimaryRecorder_m1DA6ED8BC914F3EAFBDC46288F5F0C70B904E5C7_inline (VoiceConnection_tB1A14C698697002D8D57FA47F332A44E7E294DB3* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/UnityVoiceClient.cs:216>
+		Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* L_0 = __this->___primaryRecorder;
+		return L_0;
+	}
+}
+// Method Definition Index: 92905
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PhotonVoiceView_set_RecorderInUse_m5AB337A396F56EED36C91A6E3346BFD8F5207284_inline (PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* __this, Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:46>
+		Recorder_t1C736AA65E77CD851B67FCA224A9B72A53DC1F0C* L_0 = ___0_value;
+		__this->___U3CRecorderInUseU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CRecorderInUseU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 88667
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* VoiceConnection_get_SpeakerPrefab_m826BAD6BF3DBF46103C4E21FFB9A164D9BBCF997_inline (VoiceConnection_tB1A14C698697002D8D57FA47F332A44E7E294DB3* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/UnityVoiceClient.cs:200>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___speakerPrefab;
+		return L_0;
+	}
+}
+// Method Definition Index: 92907
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PhotonVoiceView_set_SpeakerInUse_mB96442AF8DEDD8481ACF2E4F0E0E54F560017B38_inline (PhotonVoiceView_tCAADBEF2C0E22FD4386AFBE797B39CCFDB4FE0E9* __this, Speaker_tBD124E6AEFF169667A9441881B3A98F122AE4ADE* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/PUN/PhotonVoiceView.cs:49>
+		Speaker_tBD124E6AEFF169667A9441881B3A98F122AE4ADE* L_0 = ___0_value;
+		__this->___U3CSpeakerInUseU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CSpeakerInUseU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 88671
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool VoiceConnection_get_UsePrimaryRecorder_m50587F8EEAE8AA3D379D8738E72F9128EE2B41C5_inline (VoiceConnection_tB1A14C698697002D8D57FA47F332A44E7E294DB3* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonVoice/Code/UnityVoiceClient.cs:223>
+		bool L_0 = __this->___usePrimaryRecorder;
+		return L_0;
+	}
+}
+// Method Definition Index: 84632
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7* LoadBalancingClient_get_AuthValues_m58A41749A2B67F2B76EDD8C8B28A32FAA60977AA_inline (LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:333>
+		AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7* L_0 = __this->___U3CAuthValuesU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 84633
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void LoadBalancingClient_set_AuthValues_mAFB66C3CFA04587CBA1A60711581B2BA6C6FD84C_inline (LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4* __this, AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:333>
+		AuthenticationValues_tD40B2D956BF978BFB23657901557FD46EC8601C7* L_0 = ___0_value;
+		__this->___U3CAuthValuesU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CAuthValuesU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 84352
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA363C* PhotonView_get_Owner_m99D611AD5C17B06E4490F75CFAC02C26AABC4A21_inline (PhotonView_t43F3D22FF3D00F7824E82D741D70F9CB55642E6B* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonUnityNetworking/Code/PhotonView.cs:203>
+		Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA363C* L_0 = __this->___U3COwnerU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 84674
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Room_t9CCA5C06B8CE2E5E1EE24AD17360F218C4E36373* LoadBalancingClient_get_CurrentRoom_mADB06D45AD1F8289D93F08F322C9FDB694EAC291_inline (LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:708>
+		Room_t9CCA5C06B8CE2E5E1EE24AD17360F218C4E36373* L_0 = __this->___U3CCurrentRoomU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 84622
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR LoadBalancingPeer_t8C350A611B061F0EA1DE76C03AFD0CE19070E81F* LoadBalancingClient_get_LoadBalancingPeer_mF3097AB6F64148B7BF7B1AEFA7FB37DE30AC30C5_inline (LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:294>
+		LoadBalancingPeer_t8C350A611B061F0EA1DE76C03AFD0CE19070E81F* L_0 = __this->___U3CLoadBalancingPeerU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 84626
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* LoadBalancingClient_get_AppVersion_mA2E5DE4671D1C7BD67296921DBD776E61F63E388_inline (LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/gpmac/OneDrive/Desktop/Async/A-sync/My project/Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:323>
+		String_t* L_0 = __this->___U3CAppVersionU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 3292
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_gshared_inline (const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 2));
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = ((EmptyArray_1_tDF0DD7256B115243AA6BD5558417387A734240EE_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->rgctx_data, 2)))->___Value;
+		return L_0;
+	}
+}
